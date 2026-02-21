@@ -1,0 +1,57 @@
+{
+  "selected_numeric_columns": [
+    "loan_amnt",
+    "int_rate",
+    "installment",
+    "annual_inc",
+    "dti",
+    "open_acc",
+    "pub_rec",
+    "revol_bal",
+    "revol_util",
+    "total_acc",
+    "emp_length_years",
+    "term_months",
+    "fico_mean"
+  ],
+  "selected_categorical_columns": [
+    "grade",
+    "home_ownership",
+    "verification_status",
+    "purpose",
+    "addr_state"
+  ],
+  "selected_text_column": "desc_clean",
+  "selected_all_columns": [
+    "loan_amnt",
+    "int_rate",
+    "installment",
+    "annual_inc",
+    "dti",
+    "open_acc",
+    "pub_rec",
+    "revol_bal",
+    "revol_util",
+    "total_acc",
+    "emp_length_years",
+    "term_months",
+    "fico_mean",
+    "grade",
+    "home_ownership",
+    "verification_status",
+    "purpose",
+    "addr_state",
+    "desc_clean"
+  ],
+  "dropped_by_missing_ratio": {
+    "numeric": {},
+    "categorical": {}
+  },
+  "dropped_by_constant": {
+    "numeric": [],
+    "categorical": []
+  },
+  "dropped_by_high_correlation_numeric": [],
+  "missing_threshold": 0.3,
+  "corr_threshold": 0.98
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.venv/
+*.csv
+LlamaFactory/
+models/
+hf_ckpt/
+qwen3_06b**/
+*.joblib
+*.bin
+*.safetensors
+*.pt

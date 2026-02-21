@@ -1,0 +1,39 @@
+### model
+model_name_or_path: C:\Users\Administrator\Desktop\7000final\models\Qwen3-0.6B
+trust_remote_code: true
+quantization_bit: 4
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all
+lora_rank: 8
+
+### dataset
+dataset_dir: C:\Users\Administrator\Desktop\7000final\output\llm_one_stage_smoke_0001_06b\lf_data
+dataset: credit_teacher_action_direct_json
+template: qwen3_nothink
+cutoff_len: 512
+# max_samples: null
+preprocessing_num_workers: 4
+dataloader_num_workers: 0
+
+### output
+output_dir: C:\Users\Administrator\Desktop\7000final\output\llm_one_stage_smoke_0001_06b\qwen3_06b_lora_action_direct
+logging_steps: 10
+save_steps: 200
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: none
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 1
+learning_rate: 0.0001
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+fp16: true
+ddp_timeout: 180000000

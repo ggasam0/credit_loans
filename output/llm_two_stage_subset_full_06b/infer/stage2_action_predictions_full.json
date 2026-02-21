@@ -1,0 +1,62 @@
+{
+  "reason_pred_csv": "output\\llm_two_stage_subset_full_06b\\infer\\stage1_reason_predictions_full.csv",
+  "output_csv": "output\\llm_two_stage_subset_full_06b\\infer\\stage2_action_predictions_full.csv",
+  "rows": 1422,
+  "model_path": "C:\\Users\\Administrator\\Desktop\\7000final\\models\\Qwen3-0.6B",
+  "adapter_path": "output\\llm_two_stage_subset_full_06b\\qwen3_06b_lora_action",
+  "metrics": {
+    "accuracy": 0.5759493670886076,
+    "precision": 0.3690773067331671,
+    "recall": 0.2971887550200803,
+    "f1": 0.3292547274749722,
+    "balanced_accuracy": 0.5116896156052783,
+    "pr_auc": 0.35785320338657123,
+    "roc_auc": 0.5165314939411325
+  },
+  "business_metrics": {
+    "tp": 148.0,
+    "fp": 253.0,
+    "tn": 671.0,
+    "fn": 350.0,
+    "reject_rate": 0.2819971870604782,
+    "approve_rate": 0.7180028129395218,
+    "default_capture_recall": 0.2971887550200803,
+    "bad_rate_in_reject_precision": 0.3690773067331671,
+    "bad_rate_in_approve": 0.3428011753183154
+  },
+  "parse_status_counts": {
+    "logprob_candidate_compare": 1422
+  },
+  "inference_mode": "logprob_candidate_compare",
+  "reject_delta_threshold": 0.0,
+  "fixed_reject_rate_eval": {
+    "threshold": 0.4063907233281731,
+    "target_reject_rate": 0.35,
+    "actual_reject_rate": 0.35232067510548526,
+    "precision_at_target_reject_rate": 0.3652694610778443,
+    "recall_at_target_reject_rate": 0.3674698795180723,
+    "approval_bad_rate": 0.34201954397394135,
+    "lift_at_target_reject_rate": 1.0436270316509837,
+    "classification_metrics": {
+      "accuracy": 0.5548523206751055,
+      "precision": 0.3652694610778443,
+      "recall": 0.3674698795180723,
+      "f1": 0.3663663663663664,
+      "balanced_accuracy": 0.5116570176811142,
+      "pr_auc": 0.35785320338657123,
+      "roc_auc": 0.5165314939411325
+    },
+    "business_metrics": {
+      "tp": 183.0,
+      "fp": 318.0,
+      "tn": 606.0,
+      "fn": 315.0,
+      "reject_rate": 0.35232067510548526,
+      "approve_rate": 0.6476793248945147,
+      "default_capture_recall": 0.3674698795180723,
+      "bad_rate_in_reject_precision": 0.3652694610778443,
+      "bad_rate_in_approve": 0.34201954397394135
+    }
+  },
+  "fixed_reject_rate_pred_csv": "output\\llm_two_stage_subset_full_06b\\infer\\stage2_action_predictions_full_fixed_rr_35pct.csv"
+}

@@ -1,0 +1,62 @@
+{
+  "reason_pred_csv": "output\\llm_two_stage_smoke_0001_06b\\infer\\stage1_reason_predictions_0_1pct.csv",
+  "output_csv": "output\\llm_two_stage_smoke_0001_06b\\infer\\stage2_action_predictions_0_1pct.csv",
+  "rows": 2,
+  "model_path": "C:\\Users\\Administrator\\Desktop\\7000final\\models\\Qwen3-0.6B",
+  "adapter_path": "output\\llm_two_stage_smoke_0001_06b\\qwen3_06b_lora_action",
+  "metrics": {
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "balanced_accuracy": 0.5,
+    "pr_auc": 0.5,
+    "roc_auc": 0.0
+  },
+  "business_metrics": {
+    "tp": 1.0,
+    "fp": 1.0,
+    "tn": 0.0,
+    "fn": 0.0,
+    "reject_rate": 1.0,
+    "approve_rate": 0.0,
+    "default_capture_recall": 1.0,
+    "bad_rate_in_reject_precision": 0.5,
+    "bad_rate_in_approve": 0.0
+  },
+  "parse_status_counts": {
+    "logprob_candidate_compare": 2
+  },
+  "inference_mode": "logprob_candidate_compare",
+  "reject_delta_threshold": 0.0,
+  "fixed_reject_rate_eval": {
+    "threshold": 0.7908763569418956,
+    "target_reject_rate": 0.35,
+    "actual_reject_rate": 0.5,
+    "precision_at_target_reject_rate": 0.0,
+    "recall_at_target_reject_rate": 0.0,
+    "approval_bad_rate": 1.0,
+    "lift_at_target_reject_rate": 0.0,
+    "classification_metrics": {
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.0,
+      "pr_auc": 0.5,
+      "roc_auc": 0.0
+    },
+    "business_metrics": {
+      "tp": 0.0,
+      "fp": 1.0,
+      "tn": 0.0,
+      "fn": 1.0,
+      "reject_rate": 0.5,
+      "approve_rate": 0.5,
+      "default_capture_recall": 0.0,
+      "bad_rate_in_reject_precision": 0.0,
+      "bad_rate_in_approve": 1.0
+    }
+  },
+  "fixed_reject_rate_pred_csv": "output\\llm_two_stage_smoke_0001_06b\\infer\\stage2_action_predictions_0_1pct_fixed_rr_35pct.csv"
+}

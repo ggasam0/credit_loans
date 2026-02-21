@@ -1,0 +1,469 @@
+{
+  "input_csv": "data/shared/shared_subset.csv",
+  "output_dir": "output\\bert_standalone",
+  "preparation": {
+    "input_csv": "data\\shared\\shared_subset.csv",
+    "prepared_csv": "output\\bert_standalone\\data\\bert_subset_processed.csv",
+    "rows_after_basic_cleaning": 7108,
+    "feature_dimension_count": 18,
+    "feature_columns": [
+      "loan_amnt",
+      "int_rate",
+      "installment",
+      "annual_inc",
+      "dti",
+      "open_acc",
+      "pub_rec",
+      "revol_bal",
+      "revol_util",
+      "total_acc",
+      "emp_length_years",
+      "term_months",
+      "fico_mean",
+      "grade",
+      "home_ownership",
+      "verification_status",
+      "purpose",
+      "addr_state"
+    ],
+    "desc_column_used": "desc_clean",
+    "include_desc": true,
+    "feature_selection_json": "output\\ml_standalone\\analysis\\feature_selection.json"
+  },
+  "split_summary": {
+    "mode": "stratified_random_split",
+    "test_size": 0.2,
+    "val_size_within_train": 0.2,
+    "random_state": 42,
+    "max_attempts": 200,
+    "attempts_used": 1,
+    "selected_seed": 42,
+    "rate_tolerance": 0.01,
+    "rate_match_satisfied": true,
+    "best_max_gap_vs_full": 0.0002917576967164104,
+    "best_max_pair_gap": 0.0004745908507782781,
+    "full": {
+      "rows": 7108,
+      "positive_rate": 0.35002813731007315,
+      "class_counts": {
+        "0": 4620,
+        "1": 2488
+      }
+    },
+    "train_fit": {
+      "rows": 4548,
+      "positive_rate": 0.3500439753737907,
+      "class_counts": {
+        "0": 2956,
+        "1": 1592
+      }
+    },
+    "validation": {
+      "rows": 1138,
+      "positive_rate": 0.34973637961335674,
+      "class_counts": {
+        "0": 740,
+        "1": 398
+      }
+    },
+    "test": {
+      "rows": 1422,
+      "positive_rate": 0.350210970464135,
+      "class_counts": {
+        "0": 924,
+        "1": 498
+      }
+    },
+    "shared_split_dir": "data\\shared\\splits\\stratified",
+    "shared_row_id_col": "_shared_row_id"
+  },
+  "embedding_eval": {
+    "input_csv": "output\\bert_standalone\\data\\bert_subset_processed.csv",
+    "source_rows": 7108,
+    "train_pos_cap": null,
+    "sampling_strategy": "stratified_random_split",
+    "sampled_class_counts": {
+      "0": 4620,
+      "1": 2488
+    },
+    "train_rows": 5686,
+    "train_fit_rows": 4548,
+    "validation_rows": 1138,
+    "test_rows": 1422,
+    "split_mode": "stratified_random_split",
+    "train_sampling_summary": {
+      "mode": "stratified_random_split",
+      "test_size": 0.2,
+      "val_size_within_train": 0.2,
+      "random_state": 42,
+      "max_attempts": 200,
+      "attempts_used": 1,
+      "selected_seed": 42,
+      "rate_tolerance": 0.01,
+      "rate_match_satisfied": true,
+      "best_max_gap_vs_full": 0.0002917576967164104,
+      "best_max_pair_gap": 0.0004745908507782781,
+      "full": {
+        "rows": 7108,
+        "positive_rate": 0.35002813731007315,
+        "class_counts": {
+          "0": 4620,
+          "1": 2488
+        }
+      },
+      "train_fit": {
+        "rows": 4548,
+        "positive_rate": 0.3500439753737907,
+        "class_counts": {
+          "0": 2956,
+          "1": 1592
+        }
+      },
+      "validation": {
+        "rows": 1138,
+        "positive_rate": 0.34973637961335674,
+        "class_counts": {
+          "0": 740,
+          "1": 398
+        }
+      },
+      "test": {
+        "rows": 1422,
+        "positive_rate": 0.350210970464135,
+        "class_counts": {
+          "0": 924,
+          "1": 498
+        }
+      },
+      "shared_split_dir": "data\\shared\\splits\\stratified",
+      "shared_row_id_col": "_shared_row_id"
+    },
+    "threshold_tuning": {
+      "method": "validation_search",
+      "threshold_policy": "fixed_reject_rate",
+      "metric": "fixed_reject_rate_quantile",
+      "precision_floor": null,
+      "recall_floor": null,
+      "min_reject_rate": null,
+      "max_reject_rate": null,
+      "target_reject_rate": 0.35,
+      "constraint_satisfied": true,
+      "fallback_metric": null,
+      "best_threshold": 0.5137574470185026,
+      "best_score": NaN,
+      "validation_precision": 0.3944723618090452,
+      "validation_recall": 0.3944723618090452,
+      "validation_reject_rate": 0.34973637961335674,
+      "validation_metrics_at_best_threshold": {
+        "accuracy": 0.5764499121265377,
+        "precision": 0.3944723618090452,
+        "recall": 0.3944723618090452,
+        "f1": 0.3944723618090452,
+        "balanced_accuracy": 0.5343983430666848,
+        "pr_auc": 0.4016521558301817,
+        "roc_auc": 0.5512393046312645
+      },
+      "validation_business_metrics_at_best_threshold": {
+        "tp": 157.0,
+        "fp": 241.0,
+        "tn": 499.0,
+        "fn": 241.0,
+        "reject_rate": 0.34973637961335674,
+        "approve_rate": 0.6502636203866432,
+        "default_capture_recall": 0.3944723618090452,
+        "bad_rate_in_reject_precision": 0.3944723618090452,
+        "bad_rate_in_approve": 0.3256756756756757
+      },
+      "validation_fixed_metrics_at_target_reject_rate": {
+        "threshold": 0.5137574470185026,
+        "target_reject_rate": 0.35,
+        "actual_reject_rate": 0.34973637961335674,
+        "precision_at_target_reject_rate": 0.3944723618090452,
+        "recall_at_target_reject_rate": 0.3944723618090452,
+        "approval_bad_rate": 0.3256756756756757,
+        "lift_at_target_reject_rate": 1.1270638908829864,
+        "classification_metrics": {
+          "accuracy": 0.5764499121265377,
+          "precision": 0.3944723618090452,
+          "recall": 0.3944723618090452,
+          "f1": 0.3944723618090452,
+          "balanced_accuracy": 0.5343983430666848,
+          "pr_auc": 0.4016521558301817,
+          "roc_auc": 0.5512393046312645
+        },
+        "business_metrics": {
+          "tp": 157.0,
+          "fp": 241.0,
+          "tn": 499.0,
+          "fn": 241.0,
+          "reject_rate": 0.34973637961335674,
+          "approve_rate": 0.6502636203866432,
+          "default_capture_recall": 0.3944723618090452,
+          "bad_rate_in_reject_precision": 0.3944723618090452,
+          "bad_rate_in_approve": 0.3256756756756757
+        }
+      }
+    },
+    "test_balance_enabled": false,
+    "test_balance_summary": null,
+    "bert_input_column": "bert_input",
+    "requested_max_length": 514,
+    "effective_max_length": 512,
+    "tokenizer_max_length": 512,
+    "embedding_model_path": "models\\bce-embedding-base_v1",
+    "embedding_metrics": {
+      "accuracy": 0.5632911392405063,
+      "precision": 0.38589981447124305,
+      "recall": 0.41767068273092367,
+      "f1": 0.40115718418514945,
+      "balanced_accuracy": 0.5297227872529078,
+      "pr_auc": 0.388058488659121,
+      "roc_auc": 0.5544081086249761
+    },
+    "embedding_business_metrics": {
+      "tp": 208.0,
+      "fp": 331.0,
+      "tn": 593.0,
+      "fn": 290.0,
+      "reject_rate": 0.3790436005625879,
+      "approve_rate": 0.6209563994374121,
+      "default_capture_recall": 0.41767068273092367,
+      "bad_rate_in_reject_precision": 0.38589981447124305,
+      "bad_rate_in_approve": 0.32842582106455265
+    },
+    "embedding_fixed_metrics_at_target_reject_rate": {
+      "threshold": 0.5137574470185026,
+      "target_reject_rate": 0.35,
+      "actual_reject_rate": 0.3790436005625879,
+      "precision_at_target_reject_rate": 0.38589981447124305,
+      "recall_at_target_reject_rate": 0.41767068273092367,
+      "approval_bad_rate": 0.32842582106455265,
+      "lift_at_target_reject_rate": 1.102570898489266,
+      "classification_metrics": {
+        "accuracy": 0.5632911392405063,
+        "precision": 0.38589981447124305,
+        "recall": 0.41767068273092367,
+        "f1": 0.40115718418514945,
+        "balanced_accuracy": 0.5297227872529078,
+        "pr_auc": 0.388058488659121,
+        "roc_auc": 0.5544081086249761
+      },
+      "business_metrics": {
+        "tp": 208.0,
+        "fp": 331.0,
+        "tn": 593.0,
+        "fn": 290.0,
+        "reject_rate": 0.3790436005625879,
+        "approve_rate": 0.6209563994374121,
+        "default_capture_recall": 0.41767068273092367,
+        "bad_rate_in_reject_precision": 0.38589981447124305,
+        "bad_rate_in_approve": 0.32842582106455265
+      }
+    },
+    "predictions_csv": "output\\bert_standalone\\embedding_eval\\bert_embedding_eval_predictions.csv",
+    "gains_lift_curve_csv": "output\\bert_standalone\\embedding_eval\\bert_embedding_gains_lift_curve.csv",
+    "note": "rerank is intentionally disabled per project policy."
+  },
+  "finetune_eval": {
+    "input_csv": "output\\bert_standalone\\data\\bert_subset_processed.csv",
+    "source_rows": 7108,
+    "train_pos_cap": null,
+    "sampling_strategy": "stratified_random_split",
+    "sampled_class_counts": {
+      "0": 4620,
+      "1": 2488
+    },
+    "train_rows": 5686,
+    "train_fit_rows": 4548,
+    "validation_rows": 1138,
+    "test_rows": 1422,
+    "split_mode": "stratified_random_split",
+    "train_sampling_summary": {
+      "mode": "stratified_random_split",
+      "test_size": 0.2,
+      "val_size_within_train": 0.2,
+      "random_state": 42,
+      "max_attempts": 200,
+      "attempts_used": 1,
+      "selected_seed": 42,
+      "rate_tolerance": 0.01,
+      "rate_match_satisfied": true,
+      "best_max_gap_vs_full": 0.0002917576967164104,
+      "best_max_pair_gap": 0.0004745908507782781,
+      "full": {
+        "rows": 7108,
+        "positive_rate": 0.35002813731007315,
+        "class_counts": {
+          "0": 4620,
+          "1": 2488
+        }
+      },
+      "train_fit": {
+        "rows": 4548,
+        "positive_rate": 0.3500439753737907,
+        "class_counts": {
+          "0": 2956,
+          "1": 1592
+        }
+      },
+      "validation": {
+        "rows": 1138,
+        "positive_rate": 0.34973637961335674,
+        "class_counts": {
+          "0": 740,
+          "1": 398
+        }
+      },
+      "test": {
+        "rows": 1422,
+        "positive_rate": 0.350210970464135,
+        "class_counts": {
+          "0": 924,
+          "1": 498
+        }
+      },
+      "shared_split_dir": "data\\shared\\splits\\stratified",
+      "shared_row_id_col": "_shared_row_id"
+    },
+    "threshold_tuning": {
+      "method": "validation_search",
+      "threshold_policy": "fixed_reject_rate",
+      "metric": "fixed_reject_rate_quantile",
+      "precision_floor": null,
+      "recall_floor": null,
+      "min_reject_rate": null,
+      "max_reject_rate": null,
+      "target_reject_rate": 0.35,
+      "constraint_satisfied": true,
+      "fallback_metric": null,
+      "best_threshold": 0.342026424407959,
+      "best_score": NaN,
+      "validation_precision": 0.4045226130653266,
+      "validation_recall": 0.4045226130653266,
+      "validation_reject_rate": 0.34973637961335674,
+      "validation_metrics_at_best_threshold": {
+        "accuracy": 0.5834797891036907,
+        "precision": 0.4045226130653266,
+        "recall": 0.4045226130653266,
+        "f1": 0.4045226130653266,
+        "balanced_accuracy": 0.5421261713975282,
+        "pr_auc": 0.4116301946620886,
+        "roc_auc": 0.5691531984245553
+      },
+      "validation_business_metrics_at_best_threshold": {
+        "tp": 161.0,
+        "fp": 237.0,
+        "tn": 503.0,
+        "fn": 237.0,
+        "reject_rate": 0.34973637961335674,
+        "approve_rate": 0.6502636203866432,
+        "default_capture_recall": 0.4045226130653266,
+        "bad_rate_in_reject_precision": 0.4045226130653266,
+        "bad_rate_in_approve": 0.3202702702702703
+      },
+      "validation_fixed_metrics_at_target_reject_rate": {
+        "threshold": 0.342026424407959,
+        "target_reject_rate": 0.35,
+        "actual_reject_rate": 0.34973637961335674,
+        "precision_at_target_reject_rate": 0.4045226130653266,
+        "recall_at_target_reject_rate": 0.4045226130653266,
+        "approval_bad_rate": 0.3202702702702703,
+        "lift_at_target_reject_rate": 1.1557788944723617,
+        "classification_metrics": {
+          "accuracy": 0.5834797891036907,
+          "precision": 0.4045226130653266,
+          "recall": 0.4045226130653266,
+          "f1": 0.4045226130653266,
+          "balanced_accuracy": 0.5421261713975282,
+          "pr_auc": 0.4116301946620886,
+          "roc_auc": 0.5691531984245553
+        },
+        "business_metrics": {
+          "tp": 161.0,
+          "fp": 237.0,
+          "tn": 503.0,
+          "fn": 237.0,
+          "reject_rate": 0.34973637961335674,
+          "approve_rate": 0.6502636203866432,
+          "default_capture_recall": 0.4045226130653266,
+          "bad_rate_in_reject_precision": 0.4045226130653266,
+          "bad_rate_in_approve": 0.3202702702702703
+        }
+      }
+    },
+    "test_balance_enabled": false,
+    "test_balance_summary": null,
+    "bert_input_column": "bert_input",
+    "requested_max_length": 514,
+    "effective_max_length": 512,
+    "tokenizer_max_length": 512,
+    "base_model_path": "models\\bce-embedding-base_v1",
+    "finetuned_model_dir": "output\\bert_standalone\\finetune_eval\\finetuned_model",
+    "train_runtime_sec": 1306.3446,
+    "eval_metrics_trainer": {
+      "eval_loss": 0.6425850987434387,
+      "eval_accuracy": 0.6502636203866432,
+      "eval_precision": 0.0,
+      "eval_recall": 0.0,
+      "eval_f1": 0.0,
+      "eval_balanced_accuracy": 0.5,
+      "eval_pr_auc": 0.4116301946620886,
+      "eval_roc_auc": 0.5691531984245553,
+      "eval_runtime": 116.0385,
+      "eval_samples_per_second": 9.807,
+      "eval_steps_per_second": 0.62,
+      "epoch": 1.0
+    },
+    "test_metrics": {
+      "accuracy": 0.5639943741209564,
+      "precision": 0.3894927536231884,
+      "recall": 0.43172690763052207,
+      "f1": 0.4095238095238095,
+      "balanced_accuracy": 0.5335041464559537,
+      "pr_auc": 0.3866181249876562,
+      "roc_auc": 0.5580166988299519
+    },
+    "test_business_metrics": {
+      "tp": 215.0,
+      "fp": 337.0,
+      "tn": 587.0,
+      "fn": 283.0,
+      "reject_rate": 0.3881856540084388,
+      "approve_rate": 0.6118143459915611,
+      "default_capture_recall": 0.43172690763052207,
+      "bad_rate_in_reject_precision": 0.3894927536231884,
+      "bad_rate_in_approve": 0.3252873563218391
+    },
+    "test_fixed_metrics_at_target_reject_rate": {
+      "threshold": 0.342026424407959,
+      "target_reject_rate": 0.35,
+      "actual_reject_rate": 0.3881856540084388,
+      "precision_at_target_reject_rate": 0.3894927536231884,
+      "recall_at_target_reject_rate": 0.43172690763052207,
+      "approval_bad_rate": 0.3252873563218391,
+      "lift_at_target_reject_rate": 1.1128364389233956,
+      "classification_metrics": {
+        "accuracy": 0.5639943741209564,
+        "precision": 0.3894927536231884,
+        "recall": 0.43172690763052207,
+        "f1": 0.4095238095238095,
+        "balanced_accuracy": 0.5335041464559537,
+        "pr_auc": 0.3866181249876562,
+        "roc_auc": 0.5580166988299519
+      },
+      "business_metrics": {
+        "tp": 215.0,
+        "fp": 337.0,
+        "tn": 587.0,
+        "fn": 283.0,
+        "reject_rate": 0.3881856540084388,
+        "approve_rate": 0.6118143459915611,
+        "default_capture_recall": 0.43172690763052207,
+        "bad_rate_in_reject_precision": 0.3894927536231884,
+        "bad_rate_in_approve": 0.3252873563218391
+      }
+    },
+    "predictions_csv": "output\\bert_standalone\\finetune_eval\\bert_finetune_eval_predictions.csv",
+    "gains_lift_curve_csv": "output\\bert_standalone\\finetune_eval\\bert_finetune_gains_lift_curve.csv"
+  }
+}

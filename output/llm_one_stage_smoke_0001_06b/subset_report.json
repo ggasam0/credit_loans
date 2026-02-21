@@ -1,0 +1,88 @@
+{
+  "input_csv": "output\\bert_standalone\\data\\bert_subset_processed.csv",
+  "output_dir": "output\\llm_one_stage_smoke_0001_06b",
+  "file_tag": "0_1pct",
+  "train_csv": "output\\llm_one_stage_smoke_0001_06b\\data\\train_0_1pct.csv",
+  "test_csv": "output\\llm_one_stage_smoke_0001_06b\\data\\test_0_1pct.csv",
+  "all_csv": "output\\llm_one_stage_smoke_0001_06b\\data\\all_0_1pct.csv",
+  "split_mode": "stratified",
+  "ratio": 0.001,
+  "empty_bert_input_filled": 0,
+  "shared_split_dir": "data\\shared\\splits\\stratified",
+  "force_rebuild_shared_split": false,
+  "split_summary": {
+    "mode": "stratified_random_split",
+    "test_size": 0.2,
+    "val_size_within_train": 0.2,
+    "random_state": 42,
+    "max_attempts": 200,
+    "attempts_used": 1,
+    "selected_seed": 42,
+    "rate_tolerance": 0.01,
+    "rate_match_satisfied": true,
+    "best_max_gap_vs_full": 0.0002917576967164104,
+    "best_max_pair_gap": 0.0004745908507782781,
+    "full": {
+      "rows": 7108,
+      "positive_rate": 0.35002813731007315,
+      "class_counts": {
+        "0": 4620,
+        "1": 2488
+      }
+    },
+    "train_fit": {
+      "rows": 4548,
+      "positive_rate": 0.3500439753737907,
+      "class_counts": {
+        "0": 2956,
+        "1": 1592
+      }
+    },
+    "validation": {
+      "rows": 1138,
+      "positive_rate": 0.34973637961335674,
+      "class_counts": {
+        "0": 740,
+        "1": 398
+      }
+    },
+    "test": {
+      "rows": 1422,
+      "positive_rate": 0.350210970464135,
+      "class_counts": {
+        "0": 924,
+        "1": 498
+      }
+    },
+    "shared_split_dir": "data\\shared\\splits\\stratified",
+    "shared_row_id_col": "_shared_row_id"
+  },
+  "train_summary": {
+    "ratio": 0.001,
+    "rows_before": 5686,
+    "rows_after": 6,
+    "class_before": {
+      "0": 3696,
+      "1": 1990
+    },
+    "class_after": {
+      "0": 4,
+      "1": 2
+    }
+  },
+  "test_summary": {
+    "ratio": 0.001,
+    "rows_before": 1422,
+    "rows_after": 2,
+    "class_before": {
+      "0": 924,
+      "1": 498
+    },
+    "class_after": {
+      "0": 1,
+      "1": 1
+    }
+  },
+  "legacy_removed": [],
+  "legacy_remove_skipped": []
+}

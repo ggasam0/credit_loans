@@ -1,0 +1,7 @@
+{
+  "test_csv": "output\\llm_two_stage_smoke_0001_06b\\data\\test_0_1pct.csv",
+  "output_csv": "output\\llm_two_stage_smoke_0001_06b\\infer\\stage1_reason_predictions_0_1pct.csv",
+  "rows": 2,
+  "model_path": "C:\\Users\\Administrator\\Desktop\\7000final\\models\\Qwen3-0.6B",
+  "adapter_path": "output\\llm_two_stage_smoke_0001_06b\\qwen3_06b_lora_reason"
+}

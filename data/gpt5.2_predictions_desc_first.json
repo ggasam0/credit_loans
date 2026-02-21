@@ -1,0 +1,3678 @@
+[
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, DTI 12%, rate 20.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 56%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 7%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (util 67%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, term 36m, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 717, DTI 11%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, DTI 10%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 51%, FICO 667, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 24.5%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (FICO 697, util 51%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 24.5%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 42%, FICO 677, DTI 5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; elevated risk signals (DTI 31%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, util 93%, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 25.0%, FICO 677).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 101%, DTI 32%, grade F).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 56%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 672, DTI 7%, term 60m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 667, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 63%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 54%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 17%, util 85%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 23.4%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 35%, FICO 667, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 47%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 39%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 57%, FICO 667, DTI 2%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 24%, util 84%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 88%, grade E, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 25%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 68%, FICO 662, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (util 91%, grade E, rate 21.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (term 36m, FICO 662, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, DTI 19%, util 71%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 60%, FICO 672, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, util 89%, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 677, DTI 17%, rate 21.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 63%, FICO 667, term 60m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, util 54%, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; elevated risk signals (grade F, rate 24.1%, util 83%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: wedding expenses; elevated risk signals (grade G, rate 25.8%, util 80%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (DTI 32%, grade E, rate 22.9%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 662, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, DTI 21%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 61%, FICO 662, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 34%, util 86%, grade E).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 45%, FICO 662, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (FICO 687, util 42%, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 54%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, term 36m, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 30%, FICO 672, DTI 10%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 672, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, DTI 34%, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (FICO 692, DTI 15%, util 80%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 100%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (util 44%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 66%, DTI 27%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade E, rate 22.9%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 25.0%, util 75%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 36%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 22.0%, util 72%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 707, util 39%, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 68%, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 25.0%, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 697, util 48%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 53%, FICO 667, DTI 5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, util 90%, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, DTI 18%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses, mentions hospital bills; elevated risk signals (grade E, DTI 28%, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade F, rate 23.7%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical procedure; elevated risk signals (grade E, rate 22.0%, util 71%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 68%, FICO 662, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, util 58%, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, util 30%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 16%, util 79%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 722, util 25%, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 667, DTI 16%, util 79%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (FICO 687, DTI 27%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 98%, grade F, rate 25.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade E, DTI 30%, rate 20.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 22.9%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 34%, util 94%, grade F).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, rate 25.8%, DTI 23%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 24.1%, util 82%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 44%, FICO 667, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 55%, FICO 662, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 92%, grade E, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 70%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 20.0%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, term 36m, DTI 6%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, term 36m, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 24.1%, FICO 667).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 55%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, util 48%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, util 28%, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 31%, grade E, util 80%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 717, util 63%, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 65%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 677, DTI 11%, util 84%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 94%, grade E, rate 22.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 56%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, util 65%, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 31%, util 86%, grade F).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, util 19%, DTI 8%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 26%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 662, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 59%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 667, DTI 4%, rate 20.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical procedure; elevated risk signals (grade E, DTI 30%, rate 20.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 44%, FICO 677, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade F, rate 24.5%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 24.1%, DTI 30%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (util 55%, FICO 667, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 25.6%, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 93%, grade E, rate 22.9%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 31%, util 92%, grade F).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 34%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 65%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 707, term 36m, util 76%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 692, DTI 20%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 692, term 36m, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 90%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 702, util 55%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (FICO 692, util 53%, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 58%, FICO 677, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 37%, FICO 667, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 64%, FICO 667, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, util 94%, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 25.6%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 0%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 672, DTI 30%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade G, util 90%, rate 26.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 672, DTI 24%, util 85%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 43%, FICO 667, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 70%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 69%, FICO 677, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 95%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 707, util 56%, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 672, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 33%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, DTI 24%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (FICO 682, util 9%, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 712, util 39%, DTI 26%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 38%, FICO 672, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 70%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 50%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 63%, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 732, util 49%, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions bankruptcy, mentions collections; elevated risk signals (grade E, rate 25.0%, util 74%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 722, util 43%, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 54%, FICO 672, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 64%, FICO 677, rate 21.2%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 59%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade E, rate 22.4%, util 84%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 69%, FICO 662, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 722, util 69%, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 34%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (DTI 31%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 677, DTI 6%, util 83%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 96%, grade E, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (util 26%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 100%, DTI 31%, grade E).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, util 60%, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 69%, FICO 672, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 42%, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 54%, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 94%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 677, DTI 11%, util 84%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 677, DTI 13%, util 79%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 34%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 96%, grade E, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 29%, FICO 662, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, util 29%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 702, DTI 27%, rate 21.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; elevated risk signals (grade E, DTI 26%, util 76%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 692, util 21%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 97%, grade G, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: repairs; elevated risk signals (util 90%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 54%, FICO 672, DTI 27%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.4%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 64%, FICO 667, DTI 27%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 58%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, util 70%, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, util 62%, DTI 30%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 737, util 34%, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, util 38%, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: wedding expenses; risk profile appears manageable (FICO 692, term 36m, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (DTI 34%, grade F, rate 25.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: wedding expenses; risk profile appears manageable (FICO 692, DTI 19%, util 81%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 70%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 92%, grade E, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 86%, grade E, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 97%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 32%, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, rate 25.8%, DTI 23%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, util 18%, DTI 3%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 712, util 67%, DTI 27%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 697, util 69%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 96%, grade G, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 702, DTI 18%, util 81%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 23.7%, util 72%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 24.5%, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 33%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 25.0%, DTI 16%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 697, util 68%, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 25.0%, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 69%, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 87%, grade E, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 33%, grade E, util 79%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 70%, FICO 662, DTI 10%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 92%, grade F, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade E, rate 22.4%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, DTI 24%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 26%, FICO 662, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 677, DTI 18%, rate 20.0%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 95%, grade E, DTI 30%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade E, DTI 24%, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 68%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 62%, FICO 667, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 90%, grade E, rate 22.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (util 68%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 672, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 12%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 44%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 677, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, rate 25.9%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 777, util 23%, DTI 3%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 61%, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 44%, FICO 667, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 35%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 692, util 55%, DTI 8%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 50%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 707, util 59%, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 62%, FICO 662, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, term 36m, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 702, util 36%, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 95%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 34%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 672, DTI 20%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 66%, FICO 677, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 98%, DTI 32%, grade F).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade G, rate 25.8%, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 672, DTI 16%, util 76%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 43%, FICO 672, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 20.5%, FICO 667).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 692, util 68%, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, DTI 13%, util 71%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 69%, FICO 662, DTI 8%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (FICO 702, DTI 19%, util 85%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (util 54%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 110%, grade G, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, rate 25.8%, util 80%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 662, DTI 14%, util 84%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.4%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, rate 25.9%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 62%, FICO 662, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 64%, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 88%, grade E, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade G, rate 26.1%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 32%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 692, util 55%, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 94%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 672, DTI 11%, util 84%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 662, DTI 15%, util 84%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 707, util 43%, term 60m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 37%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 4%, rate 20.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, term 36m, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, DTI 23%, util 80%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 8%, FICO 672, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 662, DTI 19%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 697, util 66%, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: wedding expenses; risk profile appears manageable (FICO 692, util 44%, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 692, DTI 14%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 32%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 59%, FICO 662, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 24.5%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 96%, grade E, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade E, rate 23.4%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 22.0%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, util 80%, rate 20.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, util 67%, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 45%, FICO 677, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 702, term 36m, DTI 3%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (util 50%, FICO 667, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 14%, rate 20.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 707, util 66%, DTI 4%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 26%, term 60m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 93%, grade F, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 662, DTI 15%, util 85%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 692, DTI 26%, util 83%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 662, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 20%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 732, util 41%, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 712, util 36%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 32%, grade F, rate 25.6%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 722, util 60%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 697, DTI 9%, util 77%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 92%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 96%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 662, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 58%, FICO 672, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 34%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (FICO 682, util 60%, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 30%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 89%, grade E, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 28%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, DTI 18%, util 81%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 25.0%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 54%, FICO 672, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 24.1%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 67%, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 87%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 59%, FICO 677, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 58%, FICO 672, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 48%, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (util 87%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 98%, grade G, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 20%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 93%, grade F, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 722, util 29%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 732, util 8%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: wedding expenses; elevated risk signals (grade F, rate 23.4%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 722, util 14%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (DTI 32%, grade E, util 73%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 34%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 43%, DTI 7%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 31%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 94%, grade F, rate 25.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, DTI 16%, rate 20.0%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (FICO 682, DTI 23%, util 82%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 667, DTI 28%, util 82%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (term 36m, FICO 672, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 67%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 60%, FICO 672, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (util 53%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 59%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 96%, grade E, DTI 30%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 10%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 32%, grade E, rate 20.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, rate 26.1%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, util 93%, rate 25.9%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 697, DTI 20%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 39%, FICO 662, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 722, util 27%, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, DTI 19%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 98%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 92%, grade E, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 692, util 62%, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (util 46%, FICO 672, DTI 4%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; elevated risk signals (grade G, rate 25.8%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 63%, FICO 667, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (util 58%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 30%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 12%, rate 21.2%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 63%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; elevated risk signals (grade F, rate 25.0%, FICO 662).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 58%, FICO 662, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 87%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 662, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade E, DTI 26%, util 77%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 92%, grade F, rate 25.6%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (util 33%, FICO 667, DTI 27%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 27%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 677, DTI 19%, util 77%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 46%, FICO 672, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 67%, FICO 662, DTI 6%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 662, DTI 9%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, util 43%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 101%, DTI 32%, grade E).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 51%, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade F, rate 23.7%, DTI 4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 52%, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.7%, FICO 662).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: wedding expenses; elevated risk signals (DTI 34%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (util 60%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, DTI 16%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, DTI 25%, rate 20.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 55%, DTI 24%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 43%, FICO 667, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 662, DTI 22%, util 82%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 88%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 54%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 52%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 68%, FICO 662, DTI 9%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 88%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (FICO 687, util 47%, DTI 5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 94%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 96%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 70%, FICO 662, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 43%, FICO 667, DTI 24%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, DTI 8%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, DTI 25%, util 84%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 68%, FICO 677, DTI 24%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 672, DTI 24%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 62%, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade E, rate 22.4%, DTI 30%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: auto-related; elevated risk signals (grade E, rate 22.9%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 672, DTI 20%, util 79%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 65%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 24.1%, DTI 21%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 15%, util 84%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 39%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 25.0%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 36%, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 35%, grade E, rate 21.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 40%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (util 65%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (FICO 682, term 36m, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, DTI 26%, util 81%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (DTI 31%, util 88%, grade E).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 66%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 56%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 96%, grade E, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 722, DTI 17%, term 60m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 53%, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 69%, FICO 662, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions hospital bills; elevated risk signals (grade E, rate 22.4%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 98%, grade G, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 100%, grade E, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 44%, FICO 677, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 97%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.4%, DTI 17%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 97%, grade F, rate 25.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (util 20%, FICO 662, DTI 4%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 25.6%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 692, term 36m, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 717, util 67%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 96%, grade E, rate 22.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (FICO 682, util 46%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 23.4%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade E, rate 22.0%, DTI 30%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 100%, grade E, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (util 68%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, term 36m, DTI 3%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 59%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 712, util 40%, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 70%, FICO 662, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 25.6%, DTI 21%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 677, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 65%, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 24.1%, DTI 21%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 697, util 38%, term 60m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; elevated risk signals (grade E, DTI 21%, util 75%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 25.6%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 97%, grade F, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 23.4%, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 672, DTI 10%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 692, DTI 12%, rate 20.0%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, term 36m, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; elevated risk signals (grade G, rate 26.0%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 667, DTI 12%, rate 20.0%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, term 36m, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical procedure; elevated risk signals (grade E, DTI 24%, util 78%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 58%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 697, util 17%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 707, util 37%, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.4%, DTI 23%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 70%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 752, util 0%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade E, rate 22.4%, util 84%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 20%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade E, rate 22.0%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 67%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 99%, grade E, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 45%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 38%, FICO 672, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 7%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 56%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 34%, grade E, rate 22.9%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 63%, FICO 677, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade F, rate 24.5%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 48%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (FICO 662, DTI 17%, util 82%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 23.4%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.4%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 69%, FICO 677, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, util 55%, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 662, DTI 24%, util 73%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 96%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, term 36m, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.4%, DTI 21%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 697, util 36%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 44%, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 60%, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade E, rate 22.0%, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 63%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, DTI 17%, util 73%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 41%, DTI 24%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 662, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 692, term 36m, DTI 30%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 62%, DTI 6%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 57%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, util 69%, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (FICO 682, util 62%, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 61%, FICO 667, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 707, util 74%, rate 20.0%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 31%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 707, util 52%, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: wedding expenses; elevated risk signals (grade G, rate 25.8%, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 702, util 34%, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, DTI 31%, util 93%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 33%, util 88%, grade E).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: repairs; elevated risk signals (util 87%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 32%, grade E, rate 21.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 34%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 24.5%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 98%, grade E, DTI 21%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, DTI 18%, rate 21.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 94%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 43%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 68%, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade E, rate 22.4%, DTI 21%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 712, util 62%, DTI 10%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 88%, grade E, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 667, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 91%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 10%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; elevated risk signals (grade E, rate 22.4%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade E, DTI 27%, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 67%, FICO 662, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 54%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 94%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 702, util 67%, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, DTI 30%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 52%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (util 58%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 702, term 36m, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 787, util 22%, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 54%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions hospital bills; elevated risk signals (DTI 31%, grade E, util 75%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 98%, grade G, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 34%, grade E, util 76%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 8%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 14%, util 75%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 51%, FICO 667, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, term 36m, DTI 30%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 0%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 68%, FICO 667, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, DTI 29%, util 81%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, util 81%, rate 21.2%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade G, rate 25.8%, DTI 21%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade E, rate 22.4%, util 84%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 24.1%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 62%, FICO 677, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 97%, grade E, rate 22.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 24.5%, DTI 23%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 31%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 717, util 56%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 23.4%, DTI 21%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 10%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 93%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 34%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 42%, FICO 662, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 58%, FICO 677, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 69%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 697, util 69%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 98%, grade E, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 59%, FICO 667, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, util 86%, rate 25.9%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 24.1%, util 73%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 677, DTI 17%, util 77%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 662, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 64%, FICO 672, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 677, DTI 28%, util 76%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, DTI 18%, util 73%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, util 48%, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 667, DTI 17%, util 75%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 26%, FICO 667, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 96%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, term 36m, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 61%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 662, DTI 12%, util 76%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 677, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 722, util 47%, DTI 8%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (FICO 712, util 57%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 31%, util 94%, grade E).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 39%, FICO 672, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 40%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; elevated risk signals (grade F, rate 23.7%, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, DTI 19%, util 75%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 58%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 31%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 48%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 48%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 662, util 76%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade G, util 88%, rate 25.9%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 60%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 43%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, util 92%, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 722, DTI 27%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 702, util 54%, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (util 8%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 707, util 57%, rate 21.2%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 59%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (DTI 34%, grade E, rate 21.2%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 66%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 23.7%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 32%, grade E, rate 21.2%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (FICO 697, util 25%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 67%, FICO 667, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 18%, util 77%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, rate 25.8%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, util 44%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: moving expenses; elevated risk signals (grade G, rate 25.8%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.7%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade F, rate 25.0%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, util 36%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses, mentions medical procedure; elevated risk signals (grade E, rate 23.4%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade G, rate 26.0%, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 727, util 13%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 26%, FICO 672, DTI 5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 662, DTI 12%, rate 20.0%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 40%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions foreclosure; elevated risk signals (grade E, rate 20.5%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 36%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 722, term 36m, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 727, util 48%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 662, DTI 19%, util 79%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 667, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 677, DTI 30%, util 84%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 707, term 36m, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 45%, FICO 672, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, DTI 33%, util 91%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 64%, FICO 667, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 25.0%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 672, DTI 22%, rate 20.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, DTI 19%, util 75%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 95%, grade E, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 22.4%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 58%, FICO 677, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 63%, FICO 667, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 60%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 95%, grade E, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 667, DTI 19%, util 79%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: wedding expenses; risk profile appears manageable (FICO 712, util 49%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 92%, grade E, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 67%, FICO 662, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (FICO 707, DTI 30%, util 77%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, term 36m, DTI 8%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: moving expenses; elevated risk signals (grade F, rate 23.7%, util 80%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 95%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (FICO 727, util 15%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 672, DTI 10%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, util 64%, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 24.1%, DTI 23%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.4%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 97%, grade E, rate 22.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: moving expenses; risk profile appears manageable (util 70%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, term 36m, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 52%, FICO 662, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 33%, grade F, rate 25.6%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 667, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, DTI 19%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 677, DTI 13%, util 80%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, rate 25.9%, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, util 56%, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 31%, grade E, rate 22.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (FICO 712, util 46%, DTI 9%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 707, util 53%, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 60%, FICO 677, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 33%, grade E, util 80%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 32%, FICO 662, rate 20.0%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 66%, FICO 672, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, util 37%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 702, util 65%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 28%, FICO 672, DTI 7%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (DTI 32%, grade E, rate 21.2%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 93%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 662, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical procedure; elevated risk signals (grade E, rate 21.2%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: moving expenses; risk profile appears manageable (util 39%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 53%, FICO 667, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 54%, FICO 672, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 662, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 702, util 65%, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 65%, FICO 667, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 692, util 40%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 667, DTI 27%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions bankruptcy; elevated risk signals (grade G, rate 25.8%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 702, util 58%, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 60%, FICO 677, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 90%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 667, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 88%, grade E, rate 21.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 22.4%, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 68%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 69%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade G, rate 25.8%, util 75%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, term 36m, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade F, rate 24.5%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 65%, FICO 662, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 93%, grade E, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 677, DTI 25%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 66%, FICO 672, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 69%, FICO 672, DTI 24%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 62%, FICO 667, DTI 24%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 90%, grade E, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 672, DTI 24%, util 81%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 707, DTI 18%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.7%, util 81%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 34%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 58%, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 65%, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 662, DTI 28%, util 82%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 667, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 55%, FICO 662, DTI 4%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 717, DTI 15%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 68%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 662, DTI 10%, util 80%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 86%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 28%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 732, util 43%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (DTI 32%, grade E, rate 21.2%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, util 93%, rate 25.9%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 722, util 42%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 31%, util 88%, grade E).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (util 54%, FICO 677, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 677, DTI 14%, util 82%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (DTI 31%, grade E, util 82%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, DTI 28%, util 78%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 87%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 40%, FICO 667, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 59%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 697, term 36m, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 96%, DTI 33%, grade E).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 667, DTI 13%, rate 20.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade G, util 88%, rate 25.8%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 672, DTI 30%, util 74%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 31%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 87%, grade F, rate 25.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 59%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (FICO 727, util 58%, rate 20.0%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 42%, FICO 672, DTI 10%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 94%, grade E, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 33%, util 86%, grade F).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 66%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 66%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 48%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade E, DTI 29%, util 76%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.4%, FICO 662).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 40%, FICO 667, DTI 26%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 662, DTI 25%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, rate 25.8%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 87%, grade E, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 22.4%, FICO 667).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 667, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade E, rate 22.4%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, rate 25.8%, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 69%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 59%, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 67%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; elevated risk signals (grade F, rate 25.6%, DTI 26%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 24.5%, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 32%, FICO 672, DTI 5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade E, rate 22.4%, DTI 17%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 672, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 24.5%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 92%, grade E, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 89%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 44%, FICO 677, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 57%, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 24.1%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 662, DTI 18%, util 82%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 45%, FICO 667, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 88%, grade E, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, term 36m, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade G, rate 25.8%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 23.7%, DTI 23%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 91%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 69%, FICO 662, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 65%, FICO 672, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 672, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 40%, FICO 672, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 51%, FICO 662, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 25.0%, DTI 30%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 717, DTI 21%, rate 20.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 702, util 44%, DTI 8%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: moving expenses; elevated risk signals (util 88%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 93%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (FICO 727, util 19%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 662, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 667, DTI 3%, util 71%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 45%, FICO 672, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 662, DTI 11%, util 76%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 32%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, DTI 16%, util 84%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 63%, FICO 667, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 662, DTI 15%, util 78%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 97%, grade E, DTI 21%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 25.6%, DTI 29%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, DTI 25%, util 75%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 58%, FICO 662, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 94%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 68%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 96%, grade F, rate 24.1%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 32%, grade E, rate 22.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 677, DTI 27%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 36%, FICO 662, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 2%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 667, DTI 12%, util 81%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 68%, FICO 667, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 97%, grade F, rate 25.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 57%, FICO 662, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 90%, grade E, rate 22.9%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 717, DTI 29%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, util 38%, DTI 18%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade E, rate 22.4%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 697, DTI 11%, util 81%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions medical expenses; elevated risk signals (grade F, rate 24.1%, DTI 22%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, term 36m, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, term 36m, DTI 30%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 667, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 662, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 64%, FICO 677, DTI 29%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, util 63%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 702, DTI 16%, util 79%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 68%, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 31%, DTI 13%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 58%, FICO 662, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 93%, grade F, rate 23.7%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 63%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions being behind on bills, mentions medical expenses; elevated risk signals (grade F, rate 24.5%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 25.0%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (DTI 31%, grade E, rate 21.2%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, util 34%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade F, rate 24.1%, DTI 25%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 57%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 40%, FICO 672, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 667, DTI 27%, util 82%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (DTI 35%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 687, util 67%, DTI 6%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 667, DTI 10%, util 75%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 24%, FICO 672, DTI 7%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade E, rate 22.4%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (term 36m, FICO 672, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions being behind on bills, mentions medical expenses; elevated risk signals (grade F, rate 24.5%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 28%, FICO 667, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 13%, DTI 22%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 35%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 66%, FICO 672, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (term 36m, FICO 662, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (FICO 692, DTI 18%, rate 21.5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 48%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 25%, FICO 667, DTI 25%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 60%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 86%, grade F, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 662, DTI 22%, util 77%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, util 59%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 702, DTI 30%, util 75%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 86%, grade E, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 697, util 50%, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 92%, grade E, rate 20.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, DTI 18%, util 72%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (util 90%, grade F, rate 24.5%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 46%, FICO 662, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "mentions delinquency; elevated risk signals (grade E, util 73%, rate 20.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 93%, grade E, rate 23.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 25.0%, util 78%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: moving expenses; risk profile appears manageable (FICO 682, util 52%, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 682, term 36m, DTI 3%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 23.7%, DTI 28%).",
+    "action": "reject"
+  },
+  {
+    "reason": "mentions being behind on bills; elevated risk signals (grade F, rate 23.4%, DTI 17%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (util 96%, grade E, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 707, util 45%, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 69%, FICO 662, DTI 17%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade F, rate 24.5%, DTI 27%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 56%, FICO 662, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 662, DTI 15%, util 83%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 687, DTI 16%, util 81%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 702, util 33%, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 52%, DTI 21%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 712, DTI 23%, rate 20.0%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 54%, DTI 14%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 687, term 36m, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade G, rate 25.8%, DTI 23%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (term 36m, FICO 662, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 59%, FICO 672, DTI 19%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 692, util 46%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 692, util 57%, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 692, util 55%, DTI 30%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 0%, term 36m, FICO 677).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 727, util 48%, DTI 11%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 682, DTI 24%, util 71%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: home improvement; risk profile appears manageable (util 62%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 60%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; elevated risk signals (grade F, rate 25.0%, DTI 24%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 59%, term 36m, FICO 662).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: moving expenses; elevated risk signals (grade F, rate 25.0%, util 81%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 58%, FICO 672, DTI 12%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: auto-related; risk profile appears manageable (term 36m, FICO 667, DTI 8%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 62%, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (grade E, rate 20.5%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, DTI 18%, util 83%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: wedding expenses; elevated risk signals (DTI 31%, grade E, util 80%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 57%, FICO 667, DTI 15%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: repairs; risk profile appears manageable (FICO 712, util 64%, term 36m).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 95%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 43%, FICO 662, DTI 8%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 56%, term 36m, FICO 667).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (util 96%, grade E, rate 22.4%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: auto-related; elevated risk signals (util 99%, grade E, rate 20.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (util 30%, FICO 662, DTI 5%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (util 68%, FICO 672, DTI 23%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; elevated risk signals (grade E, rate 21.2%, FICO 677).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (FICO 727, util 45%, DTI 28%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; elevated risk signals (DTI 32%, grade F, rate 25.0%).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; elevated risk signals (grade F, rate 25.0%, term 60m).",
+    "action": "reject"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 692, util 60%, DTI 20%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: debt consolidation; risk profile appears manageable (FICO 682, util 50%, DTI 16%).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose is generic/unclear; risk profile appears manageable (util 15%, term 36m, FICO 672).",
+    "action": "approve"
+  },
+  {
+    "reason": "stated purpose: credit card payoff; risk profile appears manageable (FICO 697, DTI 23%, util 81%).",
+    "action": "approve"
+  }
+]

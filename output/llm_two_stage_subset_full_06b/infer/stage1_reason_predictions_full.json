@@ -1,0 +1,7 @@
+{
+  "test_csv": "output\\llm_two_stage_subset_full_06b\\data\\test_full.csv",
+  "output_csv": "output\\llm_two_stage_subset_full_06b\\infer\\stage1_reason_predictions_full.csv",
+  "rows": 1422,
+  "model_path": "C:\\Users\\Administrator\\Desktop\\7000final\\models\\Qwen3-0.6B",
+  "adapter_path": "output\\llm_two_stage_subset_full_06b\\qwen3_06b_lora_reason"
+}

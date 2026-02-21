@@ -1,0 +1,51 @@
+{
+  "input_csv": "data\\shared\\shared_subset.csv",
+  "split_mode": "stratified",
+  "split_summary": {
+    "mode": "stratified_random_split",
+    "test_size": 0.2,
+    "val_size_within_train": 0.2,
+    "random_state": 42,
+    "max_attempts": 200,
+    "attempts_used": 1,
+    "selected_seed": 42,
+    "rate_tolerance": 0.01,
+    "rate_match_satisfied": true,
+    "best_max_gap_vs_full": 0.0002917576967164104,
+    "best_max_pair_gap": 0.0004745908507782781,
+    "full": {
+      "rows": 7108,
+      "positive_rate": 0.35002813731007315,
+      "class_counts": {
+        "0": 4620,
+        "1": 2488
+      }
+    },
+    "train_fit": {
+      "rows": 4548,
+      "positive_rate": 0.3500439753737907,
+      "class_counts": {
+        "0": 2956,
+        "1": 1592
+      }
+    },
+    "validation": {
+      "rows": 1138,
+      "positive_rate": 0.34973637961335674,
+      "class_counts": {
+        "0": 740,
+        "1": 398
+      }
+    },
+    "test": {
+      "rows": 1422,
+      "positive_rate": 0.350210970464135,
+      "class_counts": {
+        "0": 924,
+        "1": 498
+      }
+    },
+    "shared_split_dir": "data\\shared\\splits\\stratified",
+    "shared_row_id_col": "_shared_row_id"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "credit_teacher_action_direct_json": {
+    "file_name": "credit_teacher_action_direct_json.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system"
+    }
+  }
+}

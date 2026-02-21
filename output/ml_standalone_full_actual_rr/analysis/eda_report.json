@@ -1,0 +1,46 @@
+{
+  "rows_total": 123202,
+  "cols_total": 21,
+  "target_distribution": {
+    "0": 104318,
+    "1": 18884
+  },
+  "train_rows": 98561,
+  "test_rows": 24641,
+  "train_target_distribution": {
+    "0": 83454,
+    "1": 15107
+  },
+  "test_target_distribution": {
+    "0": 20864,
+    "1": 3777
+  },
+  "numeric_columns_initial": [
+    "loan_amnt",
+    "int_rate",
+    "installment",
+    "annual_inc",
+    "dti",
+    "open_acc",
+    "pub_rec",
+    "revol_bal",
+    "revol_util",
+    "total_acc",
+    "emp_length_years",
+    "term_months",
+    "fico_mean"
+  ],
+  "categorical_columns_initial": [
+    "grade",
+    "home_ownership",
+    "verification_status",
+    "purpose",
+    "addr_state"
+  ],
+  "artifacts": {
+    "missing_ratio_csv": "output\\ml_standalone_full_actual_rr\\analysis\\missing_ratio.csv",
+    "numeric_summary_csv": "output\\ml_standalone_full_actual_rr\\analysis\\numeric_summary.csv",
+    "categorical_summary_csv": "output\\ml_standalone_full_actual_rr\\analysis\\categorical_summary.csv",
+    "target_by_year_csv": "output\\ml_standalone_full_actual_rr\\analysis\\target_by_year.csv"
+  }
+}

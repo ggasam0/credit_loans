@@ -1,0 +1,47 @@
+{
+  "mode": "stratified_random_split",
+  "test_size": 0.2,
+  "val_size_within_train": 0.2,
+  "random_state": 42,
+  "max_attempts": 200,
+  "attempts_used": 1,
+  "selected_seed": 42,
+  "rate_tolerance": 0.01,
+  "rate_match_satisfied": true,
+  "best_max_gap_vs_full": 2.312036838056364e-05,
+  "best_max_pair_gap": 3.0270908437046717e-05,
+  "full": {
+    "rows": 123202,
+    "positive_rate": 0.15327673252057597,
+    "class_counts": {
+      "0": 104318,
+      "1": 18884
+    }
+  },
+  "train_fit": {
+    "rows": 78848,
+    "positive_rate": 0.1532695819805195,
+    "class_counts": {
+      "0": 66763,
+      "1": 12085
+    }
+  },
+  "validation": {
+    "rows": 19713,
+    "positive_rate": 0.15329985288895653,
+    "class_counts": {
+      "0": 16691,
+      "1": 3022
+    }
+  },
+  "test": {
+    "rows": 24641,
+    "positive_rate": 0.15328111683779067,
+    "class_counts": {
+      "0": 20864,
+      "1": 3777
+    }
+  },
+  "shared_split_dir": "data\\shared\\splits\\full_actual_rr",
+  "shared_row_id_col": "_shared_row_id"
+}

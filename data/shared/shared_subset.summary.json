@@ -1,0 +1,141 @@
+{
+  "input_csv": "data\\accepted_2007_to_2018Q4.csv",
+  "prepare_ml_summary": {
+    "input_csv": "data\\accepted_2007_to_2018Q4.csv",
+    "raw_output_csv": "ml_standalone\\data\\raw\\ml_raw.csv",
+    "processed_output_csv": "ml_standalone\\data\\processed\\ml_processed.csv",
+    "rows_seen": 2260701,
+    "rows_kept_before_cleaning": 123293,
+    "rows_after_cleaning": 123202,
+    "cleaning_report": {
+      "rows_before": 123293,
+      "rows_after": 123202,
+      "rows_dropped_by_required_non_null": 91,
+      "required_non_null_cols_used": [
+        "target",
+        "desc_clean",
+        "issue_year",
+        "loan_amnt",
+        "int_rate",
+        "annual_inc",
+        "dti",
+        "fico_mean",
+        "revol_util"
+      ],
+      "dropped_columns_manual": [
+        "application_type",
+        "desc",
+        "emp_length",
+        "fico_range_high",
+        "fico_range_low",
+        "issue_d",
+        "loan_status",
+        "sub_grade",
+        "term"
+      ],
+      "dropped_columns_missing_ratio": [],
+      "dropped_columns_constant": []
+    }
+  },
+  "subset_rules": {
+    "allowed_grades": [
+      "E",
+      "F",
+      "G"
+    ],
+    "min_int_rate": 18.5,
+    "max_annual_inc": 92500.0
+  },
+  "build_options": {
+    "keep_ml_intermediate": true,
+    "write_ml_subset_alias": false
+  },
+  "artifacts": {
+    "ml_raw_csv": "ml_standalone\\data\\raw\\ml_raw.csv",
+    "ml_processed_csv": "ml_standalone\\data\\processed\\ml_processed.csv",
+    "shared_subset_csv": "data\\shared\\shared_subset.csv",
+    "ml_subset_compat_csv": null
+  },
+  "subset_summary": {
+    "rows": 7108,
+    "target_default_rate": 0.35002813731007315,
+    "int_rate_min": 18.53,
+    "int_rate_max": 26.06,
+    "annual_inc_median": 60000.0,
+    "year_min": 2008,
+    "year_max": 2016,
+    "grade_counts": {
+      "E": 4414,
+      "F": 2195,
+      "G": 499
+    },
+    "target_counts": {
+      "0": 4620,
+      "1": 2488
+    },
+    "target_by_year": [
+      {
+        "issue_year": 2008.0,
+        "count": 1,
+        "default_rate": 1.0
+      },
+      {
+        "issue_year": 2009.0,
+        "count": 31,
+        "default_rate": 0.2903225806451613
+      },
+      {
+        "issue_year": 2010.0,
+        "count": 107,
+        "default_rate": 0.4205607476635514
+      },
+      {
+        "issue_year": 2011.0,
+        "count": 732,
+        "default_rate": 0.3702185792349727
+      },
+      {
+        "issue_year": 2012.0,
+        "count": 2013,
+        "default_rate": 0.3651266766020864
+      },
+      {
+        "issue_year": 2013.0,
+        "count": 3305,
+        "default_rate": 0.3388804841149773
+      },
+      {
+        "issue_year": 2014.0,
+        "count": 916,
+        "default_rate": 0.3351528384279476
+      },
+      {
+        "issue_year": 2015.0,
+        "count": 2,
+        "default_rate": 0.0
+      },
+      {
+        "issue_year": 2016.0,
+        "count": 1,
+        "default_rate": 0.0
+      }
+    ],
+    "target_by_grade": [
+      {
+        "grade": "E",
+        "count": 4414,
+        "default_rate": 0.3285002265518804
+      },
+      {
+        "grade": "F",
+        "count": 2195,
+        "default_rate": 0.3763097949886105
+      },
+      {
+        "grade": "G",
+        "count": 499,
+        "default_rate": 0.4248496993987976
+      }
+    ]
+  }
+}

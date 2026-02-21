@@ -1,0 +1,18 @@
+{
+  "credit_teacher_reason_json": {
+    "file_name": "credit_teacher_reason_json.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system"
+    }
+  },
+  "credit_teacher_action_json": {
+    "file_name": "credit_teacher_action_json.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system"
+    }
+  }
+}

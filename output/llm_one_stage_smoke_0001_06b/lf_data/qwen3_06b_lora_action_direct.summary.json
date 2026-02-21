@@ -1,0 +1,12 @@
+{
+  "sft_jsonl": "output\\llm_one_stage_smoke_0001_06b\\data\\sft\\credit_teacher_action_direct_0_1pct.jsonl",
+  "dataset_dir": "C:\\Users\\Administrator\\Desktop\\7000final\\output\\llm_one_stage_smoke_0001_06b\\lf_data",
+  "dataset_name": "credit_teacher_action_direct_json",
+  "dataset_info_path": "output\\llm_one_stage_smoke_0001_06b\\lf_data\\dataset_info.json",
+  "copied_dataset_path": "output\\llm_one_stage_smoke_0001_06b\\lf_data\\credit_teacher_action_direct_json.jsonl",
+  "train_yaml": "output\\llm_one_stage_smoke_0001_06b\\lf_data\\qwen3_06b_lora_action_direct.yaml",
+  "train_cmd_file": "output\\llm_one_stage_smoke_0001_06b\\lf_data\\run_qwen3_06b_lora_action_direct.ps1",
+  "student_model_path": "C:\\Users\\Administrator\\Desktop\\7000final\\models\\Qwen3-0.6B",
+  "output_dir": "C:\\Users\\Administrator\\Desktop\\7000final\\output\\llm_one_stage_smoke_0001_06b\\qwen3_06b_lora_action_direct",
+  "template": "qwen3_nothink"
+}

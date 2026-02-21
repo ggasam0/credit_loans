@@ -1,0 +1,1365 @@
+{
+  "input_csv": "ml_standalone\\data\\processed\\ml_full_processed.csv",
+  "rows_used": 123202,
+  "split_mode": "stratified",
+  "split_summary": {
+    "mode": "stratified_random_split",
+    "test_size": 0.2,
+    "val_size_within_train": 0.2,
+    "random_state": 42,
+    "max_attempts": 200,
+    "attempts_used": 1,
+    "selected_seed": 42,
+    "rate_tolerance": 0.01,
+    "rate_match_satisfied": true,
+    "best_max_gap_vs_full": 2.312036838056364e-05,
+    "best_max_pair_gap": 3.0270908437046717e-05,
+    "full": {
+      "rows": 123202,
+      "positive_rate": 0.15327673252057597,
+      "class_counts": {
+        "0": 104318,
+        "1": 18884
+      }
+    },
+    "train_fit": {
+      "rows": 78848,
+      "positive_rate": 0.1532695819805195,
+      "class_counts": {
+        "0": 66763,
+        "1": 12085
+      }
+    },
+    "validation": {
+      "rows": 19713,
+      "positive_rate": 0.15329985288895653,
+      "class_counts": {
+        "0": 16691,
+        "1": 3022
+      }
+    },
+    "test": {
+      "rows": 24641,
+      "positive_rate": 0.15328111683779067,
+      "class_counts": {
+        "0": 20864,
+        "1": 3777
+      }
+    },
+    "shared_split_dir": "data\\shared\\splits\\full_actual_rr",
+    "shared_row_id_col": "_shared_row_id"
+  },
+  "threshold_policy": "fixed_reject_rate",
+  "target_reject_rate": 0.15327673252057597,
+  "precision_floor": 0.5,
+  "recall_floor": 0.0,
+  "threshold_objective": "precision_at_reject_rate_bounds",
+  "threshold_min_reject_rate": 0.05,
+  "threshold_max_reject_rate": 0.6,
+  "manual_review_enabled": false,
+  "max_manual_rate": 0.25,
+  "min_auto_rate": 0.6,
+  "train_balance_enabled": false,
+  "train_balance_summary": null,
+  "validation_source": "train_raw_distribution",
+  "validation_rows": 19713,
+  "validation_positive_rate": 0.15329985288895653,
+  "test_balance_enabled": false,
+  "test_balance_summary": null,
+  "test_eval_rows": 24641,
+  "test_eval_positive_rate": 0.15328111683779067,
+  "test_raw_rows": 24641,
+  "test_raw_positive_rate": 0.15328111683779067,
+  "feature_selection": {
+    "selected_numeric_columns": [
+      "loan_amnt",
+      "int_rate",
+      "installment",
+      "annual_inc",
+      "dti",
+      "open_acc",
+      "pub_rec",
+      "revol_bal",
+      "revol_util",
+      "total_acc",
+      "emp_length_years",
+      "term_months",
+      "fico_mean"
+    ],
+    "selected_categorical_columns": [
+      "grade",
+      "home_ownership",
+      "verification_status",
+      "purpose",
+      "addr_state"
+    ],
+    "selected_text_column": "desc_clean",
+    "selected_all_columns": [
+      "loan_amnt",
+      "int_rate",
+      "installment",
+      "annual_inc",
+      "dti",
+      "open_acc",
+      "pub_rec",
+      "revol_bal",
+      "revol_util",
+      "total_acc",
+      "emp_length_years",
+      "term_months",
+      "fico_mean",
+      "grade",
+      "home_ownership",
+      "verification_status",
+      "purpose",
+      "addr_state",
+      "desc_clean"
+    ],
+    "dropped_by_missing_ratio": {
+      "numeric": {},
+      "categorical": {}
+    },
+    "dropped_by_constant": {
+      "numeric": [],
+      "categorical": []
+    },
+    "dropped_by_high_correlation_numeric": [],
+    "missing_threshold": 0.3,
+    "corr_threshold": 0.98
+  },
+  "eda_report": {
+    "rows_total": 123202,
+    "cols_total": 21,
+    "target_distribution": {
+      "0": 104318,
+      "1": 18884
+    },
+    "train_rows": 98561,
+    "test_rows": 24641,
+    "train_target_distribution": {
+      "0": 83454,
+      "1": 15107
+    },
+    "test_target_distribution": {
+      "0": 20864,
+      "1": 3777
+    },
+    "numeric_columns_initial": [
+      "loan_amnt",
+      "int_rate",
+      "installment",
+      "annual_inc",
+      "dti",
+      "open_acc",
+      "pub_rec",
+      "revol_bal",
+      "revol_util",
+      "total_acc",
+      "emp_length_years",
+      "term_months",
+      "fico_mean"
+    ],
+    "categorical_columns_initial": [
+      "grade",
+      "home_ownership",
+      "verification_status",
+      "purpose",
+      "addr_state"
+    ],
+    "artifacts": {
+      "missing_ratio_csv": "output\\ml_standalone_full_actual_rr\\analysis\\missing_ratio.csv",
+      "numeric_summary_csv": "output\\ml_standalone_full_actual_rr\\analysis\\numeric_summary.csv",
+      "categorical_summary_csv": "output\\ml_standalone_full_actual_rr\\analysis\\categorical_summary.csv",
+      "target_by_year_csv": "output\\ml_standalone_full_actual_rr\\analysis\\target_by_year.csv"
+    }
+  },
+  "models": [
+    {
+      "model_name": "logistic_tabular",
+      "cv_balanced_accuracy_mean": 0.6389347380558542,
+      "cv_balanced_accuracy_std": 0.003208070173943366,
+      "threshold_tuning": {
+        "metric": "fixed_reject_rate_quantile",
+        "precision_floor": null,
+        "recall_floor": null,
+        "min_reject_rate": null,
+        "max_reject_rate": null,
+        "max_manual_rate": null,
+        "min_auto_rate": null,
+        "constraint_satisfied": true,
+        "fallback_metric": null,
+        "best_threshold": 0.6448284132150605,
+        "best_score": NaN,
+        "target_reject_rate": 0.15327673252057597,
+        "validation_metrics_at_best_threshold": {
+          "accuracy": 0.7932328920002029,
+          "precision": 0.3256121773659828,
+          "recall": 0.3256121773659828,
+          "f1": 0.3256121773659828,
+          "balanced_accuracy": 0.601755222946966,
+          "pr_auc": 0.285413457475282,
+          "roc_auc": 0.6901263599221906
+        },
+        "validation_business_metrics_at_best_threshold": {
+          "tp": 984.0,
+          "fp": 2038.0,
+          "tn": 14653.0,
+          "fn": 2038.0,
+          "reject_rate": 0.15329985288895653,
+          "approve_rate": 0.8467001471110435,
+          "default_capture_recall": 0.3256121773659828,
+          "bad_rate_in_reject_precision": 0.3256121773659828,
+          "bad_rate_in_approve": 0.1221017314720508
+        },
+        "validation_fixed_metrics_at_target_reject_rate": {
+          "threshold": 0.6448284132150605,
+          "target_reject_rate": 0.15327673252057597,
+          "actual_reject_rate": 0.15329985288895653,
+          "precision_at_target_reject_rate": 0.3256121773659828,
+          "recall_at_target_reject_rate": 0.3256121773659828,
+          "approval_bad_rate": 0.1221017314720508,
+          "lift_at_target_reject_rate": 2.1243418489644044,
+          "classification_metrics": {
+            "accuracy": 0.7932328920002029,
+            "precision": 0.3256121773659828,
+            "recall": 0.3256121773659828,
+            "f1": 0.3256121773659828,
+            "balanced_accuracy": 0.601755222946966,
+            "pr_auc": 0.285413457475282,
+            "roc_auc": 0.6901263599221906
+          },
+          "business_metrics": {
+            "tp": 984.0,
+            "fp": 2038.0,
+            "tn": 14653.0,
+            "fn": 2038.0,
+            "reject_rate": 0.15329985288895653,
+            "approve_rate": 0.8467001471110435,
+            "default_capture_recall": 0.3256121773659828,
+            "bad_rate_in_reject_precision": 0.3256121773659828,
+            "bad_rate_in_approve": 0.1221017314720508
+          }
+        },
+        "validation_manual_policy_at_best_threshold": {
+          "auto_count": 19713,
+          "manual_count": 0,
+          "auto_metrics": {
+            "accuracy": 0.7932328920002029,
+            "precision": 0.3256121773659828,
+            "recall": 0.3256121773659828,
+            "f1": 0.3256121773659828,
+            "balanced_accuracy": 0.601755222946966,
+            "pr_auc": 0.285413457475282,
+            "roc_auc": 0.6901263599221906
+          },
+          "auto_business": {
+            "tp": 984.0,
+            "fp": 2038.0,
+            "tn": 14653.0,
+            "fn": 2038.0,
+            "reject_rate": 0.15329985288895653,
+            "approve_rate": 0.8467001471110435,
+            "default_capture_recall": 0.3256121773659828,
+            "bad_rate_in_reject_precision": 0.3256121773659828,
+            "bad_rate_in_approve": 0.1221017314720508
+          },
+          "portfolio_business": {
+            "precision_reject_auto": 0.3256121773659828,
+            "recall_default_auto_on_total": 0.3256121773659828,
+            "reject_rate_auto_on_total": 0.15329985288895653,
+            "auto_rate": 1.0,
+            "manual_rate": 0.0,
+            "bad_rate_in_auto_approve": 0.1221017314720508,
+            "auto_reject_count": 3022.0,
+            "auto_approve_count": 16691.0
+          }
+        }
+      },
+      "manual_review_enabled": false,
+      "test_metrics_eval": {
+        "accuracy": 0.7890101862749077,
+        "precision": 0.3068984247691472,
+        "recall": 0.2991792427852793,
+        "f1": 0.3029896769003888,
+        "balanced_accuracy": 0.588431645932517,
+        "pr_auc": 0.2761493493137882,
+        "roc_auc": 0.693881075682489
+      },
+      "test_business_metrics_eval": {
+        "tp": 1130.0,
+        "fp": 2552.0,
+        "tn": 18312.0,
+        "fn": 2647.0,
+        "reject_rate": 0.14942575382492593,
+        "approve_rate": 0.850574246175074,
+        "default_capture_recall": 0.2991792427852793,
+        "bad_rate_in_reject_precision": 0.3068984247691472,
+        "bad_rate_in_approve": 0.12629419342525883
+      },
+      "test_fixed_metrics_eval": {
+        "threshold": 0.6448284132150605,
+        "target_reject_rate": 0.15327673252057597,
+        "actual_reject_rate": 0.14942575382492593,
+        "precision_at_target_reject_rate": 0.3068984247691472,
+        "recall_at_target_reject_rate": 0.2991792427852793,
+        "approval_bad_rate": 0.12629419342525883,
+        "lift_at_target_reject_rate": 2.0022505681216094,
+        "classification_metrics": {
+          "accuracy": 0.7890101862749077,
+          "precision": 0.3068984247691472,
+          "recall": 0.2991792427852793,
+          "f1": 0.3029896769003888,
+          "balanced_accuracy": 0.588431645932517,
+          "pr_auc": 0.2761493493137882,
+          "roc_auc": 0.693881075682489
+        },
+        "business_metrics": {
+          "tp": 1130.0,
+          "fp": 2552.0,
+          "tn": 18312.0,
+          "fn": 2647.0,
+          "reject_rate": 0.14942575382492593,
+          "approve_rate": 0.850574246175074,
+          "default_capture_recall": 0.2991792427852793,
+          "bad_rate_in_reject_precision": 0.3068984247691472,
+          "bad_rate_in_approve": 0.12629419342525883
+        }
+      },
+      "test_metrics_raw": {
+        "accuracy": 0.7890101862749077,
+        "precision": 0.3068984247691472,
+        "recall": 0.2991792427852793,
+        "f1": 0.3029896769003888,
+        "balanced_accuracy": 0.588431645932517,
+        "pr_auc": 0.2761493493137882,
+        "roc_auc": 0.693881075682489
+      },
+      "test_business_metrics_raw": {
+        "tp": 1130.0,
+        "fp": 2552.0,
+        "tn": 18312.0,
+        "fn": 2647.0,
+        "reject_rate": 0.14942575382492593,
+        "approve_rate": 0.850574246175074,
+        "default_capture_recall": 0.2991792427852793,
+        "bad_rate_in_reject_precision": 0.3068984247691472,
+        "bad_rate_in_approve": 0.12629419342525883
+      },
+      "test_fixed_metrics_raw": {
+        "threshold": 0.6448284132150605,
+        "target_reject_rate": 0.15327673252057597,
+        "actual_reject_rate": 0.14942575382492593,
+        "precision_at_target_reject_rate": 0.3068984247691472,
+        "recall_at_target_reject_rate": 0.2991792427852793,
+        "approval_bad_rate": 0.12629419342525883,
+        "lift_at_target_reject_rate": 2.0022505681216094,
+        "classification_metrics": {
+          "accuracy": 0.7890101862749077,
+          "precision": 0.3068984247691472,
+          "recall": 0.2991792427852793,
+          "f1": 0.3029896769003888,
+          "balanced_accuracy": 0.588431645932517,
+          "pr_auc": 0.2761493493137882,
+          "roc_auc": 0.693881075682489
+        },
+        "business_metrics": {
+          "tp": 1130.0,
+          "fp": 2552.0,
+          "tn": 18312.0,
+          "fn": 2647.0,
+          "reject_rate": 0.14942575382492593,
+          "approve_rate": 0.850574246175074,
+          "default_capture_recall": 0.2991792427852793,
+          "bad_rate_in_reject_precision": 0.3068984247691472,
+          "bad_rate_in_approve": 0.12629419342525883
+        }
+      },
+      "gains_lift_curve_rows": [
+        {
+          "target_reject_rate": 0.05,
+          "threshold_from_validation": 0.7383063236886838,
+          "validation_reject_rate": 0.05001775478110891,
+          "validation_precision": 0.39858012170385393,
+          "validation_recall": 0.1300463269358041,
+          "test_reject_rate": 0.048496408424982755,
+          "test_precision": 0.3707112970711297,
+          "test_recall": 0.11728885358750331,
+          "test_approval_bad_rate": 0.14219909579459183,
+          "test_lift": 7.414225941422594
+        },
+        {
+          "target_reject_rate": 0.1,
+          "threshold_from_validation": 0.6871353605435813,
+          "validation_reject_rate": 0.10003550956221782,
+          "validation_precision": 0.35294117647058826,
+          "validation_recall": 0.23031105228325613,
+          "test_reject_rate": 0.09618116147883608,
+          "test_precision": 0.33502109704641353,
+          "test_recall": 0.21021975112523167,
+          "test_approval_bad_rate": 0.13394099950608415,
+          "test_lift": 3.350210970464135
+        },
+        {
+          "target_reject_rate": 0.15,
+          "threshold_from_validation": 0.6470078431309885,
+          "validation_reject_rate": 0.15000253639730127,
+          "validation_precision": 0.32668244842746025,
+          "validation_recall": 0.3196558570483124,
+          "test_reject_rate": 0.14670670833164237,
+          "test_precision": 0.3078838174273859,
+          "test_recall": 0.2946783161239079,
+          "test_approval_bad_rate": 0.1267002758489489,
+          "test_lift": 2.0525587828492395
+        },
+        {
+          "target_reject_rate": 0.2,
+          "threshold_from_validation": 0.6135054490355036,
+          "validation_reject_rate": 0.2000202911784102,
+          "validation_precision": 0.30103981739792035,
+          "validation_recall": 0.3927862342819325,
+          "test_reject_rate": 0.19840915547258633,
+          "test_precision": 0.2926978932296993,
+          "test_recall": 0.37887212073073867,
+          "test_approval_bad_rate": 0.11877278250303766,
+          "test_lift": 1.4634894661484965
+        },
+        {
+          "target_reject_rate": 0.25,
+          "threshold_from_validation": 0.5822533136761446,
+          "validation_reject_rate": 0.2500380459595191,
+          "validation_precision": 0.2809900588354636,
+          "validation_recall": 0.45830575777630705,
+          "test_reject_rate": 0.24897528509394912,
+          "test_precision": 0.27791361043194784,
+          "test_recall": 0.45141646809637276,
+          "test_approval_bad_rate": 0.11196368745271804,
+          "test_lift": 1.1116544417277914
+        },
+        {
+          "target_reject_rate": 0.3,
+          "threshold_from_validation": 0.5536574040887496,
+          "validation_reject_rate": 0.30000507279460253,
+          "validation_precision": 0.2690226580994251,
+          "validation_recall": 0.5264725347452018,
+          "test_reject_rate": 0.3007994805405625,
+          "test_precision": 0.26726929303831626,
+          "test_recall": 0.5244903362456976,
+          "test_approval_bad_rate": 0.10424284636368913,
+          "test_lift": 0.8908976434610543
+        },
+        {
+          "target_reject_rate": 0.35,
+          "threshold_from_validation": 0.5286396034910158,
+          "validation_reject_rate": 0.35002282757571146,
+          "validation_precision": 0.2553623188405797,
+          "validation_recall": 0.5830575777630708,
+          "test_reject_rate": 0.3479160748346252,
+          "test_precision": 0.25766942727166686,
+          "test_recall": 0.5848557055864443,
+          "test_approval_bad_rate": 0.09758526263380632,
+          "test_lift": 0.7361983636333339
+        },
+        {
+          "target_reject_rate": 0.4,
+          "threshold_from_validation": 0.5034010075876086,
+          "validation_reject_rate": 0.39998985441079493,
+          "validation_precision": 0.2413443246670894,
+          "validation_recall": 0.6297154202514891,
+          "test_reject_rate": 0.3986445355302139,
+          "test_precision": 0.24615697851980048,
+          "test_recall": 0.6401906274821286,
+          "test_approval_bad_rate": 0.09171278175192334,
+          "test_lift": 0.6153924462995012
+        },
+        {
+          "target_reject_rate": 0.45,
+          "threshold_from_validation": 0.47822907486759547,
+          "validation_reject_rate": 0.4500076091919038,
+          "validation_precision": 0.23176642994025476,
+          "validation_recall": 0.6803441429516877,
+          "test_reject_rate": 0.4509557241995049,
+          "test_precision": 0.23524118070554356,
+          "test_recall": 0.6920836642838232,
+          "test_approval_bad_rate": 0.08596348584522137,
+          "test_lift": 0.5227581793456524
+        },
+        {
+          "target_reject_rate": 0.5,
+          "threshold_from_validation": 0.455532705503303,
+          "validation_reject_rate": 0.5000253639730128,
+          "validation_precision": 0.22187278076493863,
+          "validation_recall": 0.7236929185969556,
+          "test_reject_rate": 0.5011971916724159,
+          "test_precision": 0.22615384615384615,
+          "test_recall": 0.7394757744241461,
+          "test_approval_bad_rate": 0.08005857944837685,
+          "test_lift": 0.4523076923076923
+        }
+      ],
+      "test_manual_policy_eval": {
+        "auto_count": 24641,
+        "manual_count": 0,
+        "auto_metrics": {
+          "accuracy": 0.7890101862749077,
+          "precision": 0.3068984247691472,
+          "recall": 0.2991792427852793,
+          "f1": 0.3029896769003888,
+          "balanced_accuracy": 0.588431645932517,
+          "pr_auc": 0.2761493493137882,
+          "roc_auc": 0.693881075682489
+        },
+        "auto_business": {
+          "tp": 1130.0,
+          "fp": 2552.0,
+          "tn": 18312.0,
+          "fn": 2647.0,
+          "reject_rate": 0.14942575382492593,
+          "approve_rate": 0.850574246175074,
+          "default_capture_recall": 0.2991792427852793,
+          "bad_rate_in_reject_precision": 0.3068984247691472,
+          "bad_rate_in_approve": 0.12629419342525883
+        },
+        "portfolio_business": {
+          "precision_reject_auto": 0.3068984247691472,
+          "recall_default_auto_on_total": 0.2991792427852793,
+          "reject_rate_auto_on_total": 0.14942575382492593,
+          "auto_rate": 1.0,
+          "manual_rate": 0.0,
+          "bad_rate_in_auto_approve": 0.12629419342525883,
+          "auto_reject_count": 3682.0,
+          "auto_approve_count": 20959.0
+        }
+      },
+      "test_manual_policy_raw": {
+        "auto_count": 24641,
+        "manual_count": 0,
+        "auto_metrics": {
+          "accuracy": 0.7890101862749077,
+          "precision": 0.3068984247691472,
+          "recall": 0.2991792427852793,
+          "f1": 0.3029896769003888,
+          "balanced_accuracy": 0.588431645932517,
+          "pr_auc": 0.2761493493137882,
+          "roc_auc": 0.693881075682489
+        },
+        "auto_business": {
+          "tp": 1130.0,
+          "fp": 2552.0,
+          "tn": 18312.0,
+          "fn": 2647.0,
+          "reject_rate": 0.14942575382492593,
+          "approve_rate": 0.850574246175074,
+          "default_capture_recall": 0.2991792427852793,
+          "bad_rate_in_reject_precision": 0.3068984247691472,
+          "bad_rate_in_approve": 0.12629419342525883
+        },
+        "portfolio_business": {
+          "precision_reject_auto": 0.3068984247691472,
+          "recall_default_auto_on_total": 0.2991792427852793,
+          "reject_rate_auto_on_total": 0.14942575382492593,
+          "auto_rate": 1.0,
+          "manual_rate": 0.0,
+          "bad_rate_in_auto_approve": 0.12629419342525883,
+          "auto_reject_count": 3682.0,
+          "auto_approve_count": 20959.0
+        }
+      }
+    },
+    {
+      "model_name": "logistic_text_fusion",
+      "cv_balanced_accuracy_mean": 0.6256742668034242,
+      "cv_balanced_accuracy_std": 0.0027878944922663258,
+      "threshold_tuning": {
+        "metric": "fixed_reject_rate_quantile",
+        "precision_floor": null,
+        "recall_floor": null,
+        "min_reject_rate": null,
+        "max_reject_rate": null,
+        "max_manual_rate": null,
+        "min_auto_rate": null,
+        "constraint_satisfied": true,
+        "fallback_metric": null,
+        "best_threshold": 0.6405719609234548,
+        "best_score": NaN,
+        "target_reject_rate": 0.15327673252057597,
+        "validation_metrics_at_best_threshold": {
+          "accuracy": 0.7890732004261147,
+          "precision": 0.31204500330906687,
+          "recall": 0.31204500330906687,
+          "f1": 0.31204500330906687,
+          "balanced_accuracy": 0.5937434291004624,
+          "pr_auc": 0.2770130030268134,
+          "roc_auc": 0.6816785943878654
+        },
+        "validation_business_metrics_at_best_threshold": {
+          "tp": 943.0,
+          "fp": 2079.0,
+          "tn": 14612.0,
+          "fn": 2079.0,
+          "reject_rate": 0.15329985288895653,
+          "approve_rate": 0.8467001471110435,
+          "default_capture_recall": 0.31204500330906687,
+          "bad_rate_in_reject_precision": 0.31204500330906687,
+          "bad_rate_in_approve": 0.12455814510814212
+        },
+        "validation_fixed_metrics_at_target_reject_rate": {
+          "threshold": 0.6405719609234548,
+          "target_reject_rate": 0.15327673252057597,
+          "actual_reject_rate": 0.15329985288895653,
+          "precision_at_target_reject_rate": 0.31204500330906687,
+          "recall_at_target_reject_rate": 0.31204500330906687,
+          "approval_bad_rate": 0.12455814510814212,
+          "lift_at_target_reject_rate": 2.035827605257554,
+          "classification_metrics": {
+            "accuracy": 0.7890732004261147,
+            "precision": 0.31204500330906687,
+            "recall": 0.31204500330906687,
+            "f1": 0.31204500330906687,
+            "balanced_accuracy": 0.5937434291004624,
+            "pr_auc": 0.2770130030268134,
+            "roc_auc": 0.6816785943878654
+          },
+          "business_metrics": {
+            "tp": 943.0,
+            "fp": 2079.0,
+            "tn": 14612.0,
+            "fn": 2079.0,
+            "reject_rate": 0.15329985288895653,
+            "approve_rate": 0.8467001471110435,
+            "default_capture_recall": 0.31204500330906687,
+            "bad_rate_in_reject_precision": 0.31204500330906687,
+            "bad_rate_in_approve": 0.12455814510814212
+          }
+        },
+        "validation_manual_policy_at_best_threshold": {
+          "auto_count": 19713,
+          "manual_count": 0,
+          "auto_metrics": {
+            "accuracy": 0.7890732004261147,
+            "precision": 0.31204500330906687,
+            "recall": 0.31204500330906687,
+            "f1": 0.31204500330906687,
+            "balanced_accuracy": 0.5937434291004624,
+            "pr_auc": 0.2770130030268134,
+            "roc_auc": 0.6816785943878654
+          },
+          "auto_business": {
+            "tp": 943.0,
+            "fp": 2079.0,
+            "tn": 14612.0,
+            "fn": 2079.0,
+            "reject_rate": 0.15329985288895653,
+            "approve_rate": 0.8467001471110435,
+            "default_capture_recall": 0.31204500330906687,
+            "bad_rate_in_reject_precision": 0.31204500330906687,
+            "bad_rate_in_approve": 0.12455814510814212
+          },
+          "portfolio_business": {
+            "precision_reject_auto": 0.31204500330906687,
+            "recall_default_auto_on_total": 0.31204500330906687,
+            "reject_rate_auto_on_total": 0.15329985288895653,
+            "auto_rate": 1.0,
+            "manual_rate": 0.0,
+            "bad_rate_in_auto_approve": 0.12455814510814212,
+            "auto_reject_count": 3022.0,
+            "auto_approve_count": 16691.0
+          }
+        }
+      },
+      "manual_review_enabled": false,
+      "test_metrics_eval": {
+        "accuracy": 0.7840590885110182,
+        "precision": 0.2993762993762994,
+        "recall": 0.3050039714058777,
+        "f1": 0.3021639344262295,
+        "balanced_accuracy": 0.5878930899974174,
+        "pr_auc": 0.26920555865370316,
+        "roc_auc": 0.6812368127396853
+      },
+      "test_business_metrics_eval": {
+        "tp": 1152.0,
+        "fp": 2696.0,
+        "tn": 18168.0,
+        "fn": 2625.0,
+        "reject_rate": 0.1561624934053001,
+        "approve_rate": 0.8438375065946999,
+        "default_capture_recall": 0.3050039714058777,
+        "bad_rate_in_reject_precision": 0.2993762993762994,
+        "bad_rate_in_approve": 0.12624440917616506
+      },
+      "test_fixed_metrics_eval": {
+        "threshold": 0.6405719609234548,
+        "target_reject_rate": 0.15327673252057597,
+        "actual_reject_rate": 0.1561624934053001,
+        "precision_at_target_reject_rate": 0.2993762993762994,
+        "recall_at_target_reject_rate": 0.3050039714058777,
+        "approval_bad_rate": 0.12624440917616506,
+        "lift_at_target_reject_rate": 1.9531751130988582,
+        "classification_metrics": {
+          "accuracy": 0.7840590885110182,
+          "precision": 0.2993762993762994,
+          "recall": 0.3050039714058777,
+          "f1": 0.3021639344262295,
+          "balanced_accuracy": 0.5878930899974174,
+          "pr_auc": 0.26920555865370316,
+          "roc_auc": 0.6812368127396853
+        },
+        "business_metrics": {
+          "tp": 1152.0,
+          "fp": 2696.0,
+          "tn": 18168.0,
+          "fn": 2625.0,
+          "reject_rate": 0.1561624934053001,
+          "approve_rate": 0.8438375065946999,
+          "default_capture_recall": 0.3050039714058777,
+          "bad_rate_in_reject_precision": 0.2993762993762994,
+          "bad_rate_in_approve": 0.12624440917616506
+        }
+      },
+      "test_metrics_raw": {
+        "accuracy": 0.7840590885110182,
+        "precision": 0.2993762993762994,
+        "recall": 0.3050039714058777,
+        "f1": 0.3021639344262295,
+        "balanced_accuracy": 0.5878930899974174,
+        "pr_auc": 0.26920555865370316,
+        "roc_auc": 0.6812368127396853
+      },
+      "test_business_metrics_raw": {
+        "tp": 1152.0,
+        "fp": 2696.0,
+        "tn": 18168.0,
+        "fn": 2625.0,
+        "reject_rate": 0.1561624934053001,
+        "approve_rate": 0.8438375065946999,
+        "default_capture_recall": 0.3050039714058777,
+        "bad_rate_in_reject_precision": 0.2993762993762994,
+        "bad_rate_in_approve": 0.12624440917616506
+      },
+      "test_fixed_metrics_raw": {
+        "threshold": 0.6405719609234548,
+        "target_reject_rate": 0.15327673252057597,
+        "actual_reject_rate": 0.1561624934053001,
+        "precision_at_target_reject_rate": 0.2993762993762994,
+        "recall_at_target_reject_rate": 0.3050039714058777,
+        "approval_bad_rate": 0.12624440917616506,
+        "lift_at_target_reject_rate": 1.9531751130988582,
+        "classification_metrics": {
+          "accuracy": 0.7840590885110182,
+          "precision": 0.2993762993762994,
+          "recall": 0.3050039714058777,
+          "f1": 0.3021639344262295,
+          "balanced_accuracy": 0.5878930899974174,
+          "pr_auc": 0.26920555865370316,
+          "roc_auc": 0.6812368127396853
+        },
+        "business_metrics": {
+          "tp": 1152.0,
+          "fp": 2696.0,
+          "tn": 18168.0,
+          "fn": 2625.0,
+          "reject_rate": 0.1561624934053001,
+          "approve_rate": 0.8438375065946999,
+          "default_capture_recall": 0.3050039714058777,
+          "bad_rate_in_reject_precision": 0.2993762993762994,
+          "bad_rate_in_approve": 0.12624440917616506
+        }
+      },
+      "gains_lift_curve_rows": [
+        {
+          "target_reject_rate": 0.05,
+          "threshold_from_validation": 0.7657664943089891,
+          "validation_reject_rate": 0.05001775478110891,
+          "validation_precision": 0.38843813387423937,
+          "validation_recall": 0.12673726009265388,
+          "test_reject_rate": 0.04930806379611217,
+          "test_precision": 0.36707818930041153,
+          "test_recall": 0.11808313476303944,
+          "test_approval_bad_rate": 0.14219243575514387,
+          "test_lift": 7.34156378600823
+        },
+        {
+          "target_reject_rate": 0.1,
+          "threshold_from_validation": 0.6978605601158805,
+          "validation_reject_rate": 0.10003550956221782,
+          "validation_precision": 0.34127789046653145,
+          "validation_recall": 0.2227001985440106,
+          "test_reject_rate": 0.09934661742624082,
+          "test_precision": 0.3243464052287582,
+          "test_recall": 0.21021975112523167,
+          "test_approval_bad_rate": 0.1344117514531609,
+          "test_lift": 3.2434640522875817
+        },
+        {
+          "target_reject_rate": 0.15,
+          "threshold_from_validation": 0.6439088692246867,
+          "validation_reject_rate": 0.15000253639730127,
+          "validation_precision": 0.3145079472438282,
+          "validation_recall": 0.30774321641297153,
+          "test_reject_rate": 0.15230713039243537,
+          "test_precision": 0.30029309885424993,
+          "test_recall": 0.2983849616097432,
+          "test_approval_bad_rate": 0.12686710072769053,
+          "test_lift": 2.0019539923616665
+        },
+        {
+          "target_reject_rate": 0.2,
+          "threshold_from_validation": 0.60290098751196,
+          "validation_reject_rate": 0.2000202911784102,
+          "validation_precision": 0.2903880294192239,
+          "validation_recall": 0.37888815354070154,
+          "test_reject_rate": 0.2011282009658699,
+          "test_precision": 0.28652138821630346,
+          "test_recall": 0.3759597564204395,
+          "test_approval_bad_rate": 0.11973583947167894,
+          "test_lift": 1.4326069410815172
+        },
+        {
+          "target_reject_rate": 0.25,
+          "threshold_from_validation": 0.5628550920217565,
+          "validation_reject_rate": 0.2500380459595191,
+          "validation_precision": 0.27429498884155,
+          "validation_recall": 0.44738583719391134,
+          "test_reject_rate": 0.24909703339961853,
+          "test_precision": 0.27403062886933854,
+          "test_recall": 0.44532697908392904,
+          "test_approval_bad_rate": 0.11322488245149435,
+          "test_lift": 1.0961225154773542
+        },
+        {
+          "target_reject_rate": 0.3,
+          "threshold_from_validation": 0.5268098622343041,
+          "validation_reject_rate": 0.30000507279460253,
+          "validation_precision": 0.2603990530943524,
+          "validation_recall": 0.5095962938451357,
+          "test_reject_rate": 0.29917616979830364,
+          "test_precision": 0.2622083559413999,
+          "test_recall": 0.5117818374371194,
+          "test_approval_bad_rate": 0.10678093693902369,
+          "test_lift": 0.8740278531379997
+        },
+        {
+          "target_reject_rate": 0.35,
+          "threshold_from_validation": 0.49281009969876316,
+          "validation_reject_rate": 0.35002282757571146,
+          "validation_precision": 0.24840579710144928,
+          "validation_recall": 0.5671740569159497,
+          "test_reject_rate": 0.35083803417069115,
+          "test_precision": 0.24962406015037594,
+          "test_recall": 0.5713529256023299,
+          "test_approval_bad_rate": 0.1012128032008002,
+          "test_lift": 0.7132116004296456
+        },
+        {
+          "target_reject_rate": 0.4,
+          "threshold_from_validation": 0.46095968529264003,
+          "validation_reject_rate": 0.39998985441079493,
+          "validation_precision": 0.2383005707038681,
+          "validation_recall": 0.6217736598279285,
+          "test_reject_rate": 0.4011200844121586,
+          "test_precision": 0.23816268717118574,
+          "test_recall": 0.6232459624040244,
+          "test_approval_bad_rate": 0.09642881344446703,
+          "test_lift": 0.5954067179279643
+        },
+        {
+          "target_reject_rate": 0.45,
+          "threshold_from_validation": 0.4303868723403185,
+          "validation_reject_rate": 0.4500076091919038,
+          "validation_precision": 0.22500281817157028,
+          "validation_recall": 0.6604897418927862,
+          "test_reject_rate": 0.44921066515157665,
+          "test_precision": 0.23019242930707381,
+          "test_recall": 0.6746094784220281,
+          "test_approval_bad_rate": 0.09055408193339227,
+          "test_lift": 0.5115387317934974
+        },
+        {
+          "target_reject_rate": 0.5,
+          "threshold_from_validation": 0.4001261704376922,
+          "validation_reject_rate": 0.5000253639730128,
+          "validation_precision": 0.21751039870143046,
+          "validation_recall": 0.7094639311714097,
+          "test_reject_rate": 0.4991274704760359,
+          "test_precision": 0.22123749898365722,
+          "test_recall": 0.7204130262112788,
+          "test_approval_bad_rate": 0.0855614973262032,
+          "test_lift": 0.44247499796731443
+        }
+      ],
+      "test_manual_policy_eval": {
+        "auto_count": 24641,
+        "manual_count": 0,
+        "auto_metrics": {
+          "accuracy": 0.7840590885110182,
+          "precision": 0.2993762993762994,
+          "recall": 0.3050039714058777,
+          "f1": 0.3021639344262295,
+          "balanced_accuracy": 0.5878930899974174,
+          "pr_auc": 0.26920555865370316,
+          "roc_auc": 0.6812368127396853
+        },
+        "auto_business": {
+          "tp": 1152.0,
+          "fp": 2696.0,
+          "tn": 18168.0,
+          "fn": 2625.0,
+          "reject_rate": 0.1561624934053001,
+          "approve_rate": 0.8438375065946999,
+          "default_capture_recall": 0.3050039714058777,
+          "bad_rate_in_reject_precision": 0.2993762993762994,
+          "bad_rate_in_approve": 0.12624440917616506
+        },
+        "portfolio_business": {
+          "precision_reject_auto": 0.2993762993762994,
+          "recall_default_auto_on_total": 0.3050039714058777,
+          "reject_rate_auto_on_total": 0.1561624934053001,
+          "auto_rate": 1.0,
+          "manual_rate": 0.0,
+          "bad_rate_in_auto_approve": 0.12624440917616506,
+          "auto_reject_count": 3848.0,
+          "auto_approve_count": 20793.0
+        }
+      },
+      "test_manual_policy_raw": {
+        "auto_count": 24641,
+        "manual_count": 0,
+        "auto_metrics": {
+          "accuracy": 0.7840590885110182,
+          "precision": 0.2993762993762994,
+          "recall": 0.3050039714058777,
+          "f1": 0.3021639344262295,
+          "balanced_accuracy": 0.5878930899974174,
+          "pr_auc": 0.26920555865370316,
+          "roc_auc": 0.6812368127396853
+        },
+        "auto_business": {
+          "tp": 1152.0,
+          "fp": 2696.0,
+          "tn": 18168.0,
+          "fn": 2625.0,
+          "reject_rate": 0.1561624934053001,
+          "approve_rate": 0.8438375065946999,
+          "default_capture_recall": 0.3050039714058777,
+          "bad_rate_in_reject_precision": 0.2993762993762994,
+          "bad_rate_in_approve": 0.12624440917616506
+        },
+        "portfolio_business": {
+          "precision_reject_auto": 0.2993762993762994,
+          "recall_default_auto_on_total": 0.3050039714058777,
+          "reject_rate_auto_on_total": 0.1561624934053001,
+          "auto_rate": 1.0,
+          "manual_rate": 0.0,
+          "bad_rate_in_auto_approve": 0.12624440917616506,
+          "auto_reject_count": 3848.0,
+          "auto_approve_count": 20793.0
+        }
+      }
+    },
+    {
+      "model_name": "xgboost_tabular",
+      "cv_balanced_accuracy_mean": 0.6337877599473084,
+      "cv_balanced_accuracy_std": 0.005281970710537271,
+      "threshold_tuning": {
+        "metric": "fixed_reject_rate_quantile",
+        "precision_floor": null,
+        "recall_floor": null,
+        "min_reject_rate": null,
+        "max_reject_rate": null,
+        "max_manual_rate": null,
+        "min_auto_rate": null,
+        "constraint_satisfied": true,
+        "fallback_metric": null,
+        "best_threshold": 0.631813275631375,
+        "best_score": NaN,
+        "target_reject_rate": 0.15327673252057597,
+        "validation_metrics_at_best_threshold": {
+          "accuracy": 0.7957692893014762,
+          "precision": 0.33388484447385836,
+          "recall": 0.33388484447385836,
+          "f1": 0.33388484447385836,
+          "balanced_accuracy": 0.606640463097273,
+          "pr_auc": 0.29338152391859285,
+          "roc_auc": 0.695151825522031
+        },
+        "validation_business_metrics_at_best_threshold": {
+          "tp": 1009.0,
+          "fp": 2013.0,
+          "tn": 14678.0,
+          "fn": 2013.0,
+          "reject_rate": 0.15329985288895653,
+          "approve_rate": 0.8467001471110435,
+          "default_capture_recall": 0.33388484447385836,
+          "bad_rate_in_reject_precision": 0.33388484447385836,
+          "bad_rate_in_approve": 0.1206039182793122
+        },
+        "validation_fixed_metrics_at_target_reject_rate": {
+          "threshold": 0.631813275631375,
+          "target_reject_rate": 0.15327673252057597,
+          "actual_reject_rate": 0.15329985288895653,
+          "precision_at_target_reject_rate": 0.33388484447385836,
+          "recall_at_target_reject_rate": 0.33388484447385836,
+          "approval_bad_rate": 0.1206039182793122,
+          "lift_at_target_reject_rate": 2.178313948785654,
+          "classification_metrics": {
+            "accuracy": 0.7957692893014762,
+            "precision": 0.33388484447385836,
+            "recall": 0.33388484447385836,
+            "f1": 0.33388484447385836,
+            "balanced_accuracy": 0.606640463097273,
+            "pr_auc": 0.29338152391859285,
+            "roc_auc": 0.695151825522031
+          },
+          "business_metrics": {
+            "tp": 1009.0,
+            "fp": 2013.0,
+            "tn": 14678.0,
+            "fn": 2013.0,
+            "reject_rate": 0.15329985288895653,
+            "approve_rate": 0.8467001471110435,
+            "default_capture_recall": 0.33388484447385836,
+            "bad_rate_in_reject_precision": 0.33388484447385836,
+            "bad_rate_in_approve": 0.1206039182793122
+          }
+        },
+        "validation_manual_policy_at_best_threshold": {
+          "auto_count": 19713,
+          "manual_count": 0,
+          "auto_metrics": {
+            "accuracy": 0.7957692893014762,
+            "precision": 0.33388484447385836,
+            "recall": 0.33388484447385836,
+            "f1": 0.33388484447385836,
+            "balanced_accuracy": 0.606640463097273,
+            "pr_auc": 0.29338152391859285,
+            "roc_auc": 0.695151825522031
+          },
+          "auto_business": {
+            "tp": 1009.0,
+            "fp": 2013.0,
+            "tn": 14678.0,
+            "fn": 2013.0,
+            "reject_rate": 0.15329985288895653,
+            "approve_rate": 0.8467001471110435,
+            "default_capture_recall": 0.33388484447385836,
+            "bad_rate_in_reject_precision": 0.33388484447385836,
+            "bad_rate_in_approve": 0.1206039182793122
+          },
+          "portfolio_business": {
+            "precision_reject_auto": 0.33388484447385836,
+            "recall_default_auto_on_total": 0.33388484447385836,
+            "reject_rate_auto_on_total": 0.15329985288895653,
+            "auto_rate": 1.0,
+            "manual_rate": 0.0,
+            "bad_rate_in_auto_approve": 0.1206039182793122,
+            "auto_reject_count": 3022.0,
+            "auto_approve_count": 16691.0
+          }
+        }
+      },
+      "manual_review_enabled": false,
+      "test_metrics_eval": {
+        "accuracy": 0.7911204902398442,
+        "precision": 0.31526429341963325,
+        "recall": 0.3095048980672491,
+        "f1": 0.31235804943219775,
+        "balanced_accuracy": 0.5939060149845448,
+        "pr_auc": 0.2835415716889739,
+        "roc_auc": 0.6942962611934358
+      },
+      "test_business_metrics_eval": {
+        "tp": 1169.0,
+        "fp": 2539.0,
+        "tn": 18325.0,
+        "fn": 2608.0,
+        "reject_rate": 0.15048090580739418,
+        "approve_rate": 0.8495190941926059,
+        "default_capture_recall": 0.3095048980672491,
+        "bad_rate_in_reject_precision": 0.31526429341963325,
+        "bad_rate_in_approve": 0.12458797114603735
+      },
+      "test_fixed_metrics_eval": {
+        "threshold": 0.631813275631375,
+        "target_reject_rate": 0.15327673252057597,
+        "actual_reject_rate": 0.15048090580739418,
+        "precision_at_target_reject_rate": 0.31526429341963325,
+        "recall_at_target_reject_rate": 0.3095048980672491,
+        "approval_bad_rate": 0.12458797114603735,
+        "lift_at_target_reject_rate": 2.0568307285472174,
+        "classification_metrics": {
+          "accuracy": 0.7911204902398442,
+          "precision": 0.31526429341963325,
+          "recall": 0.3095048980672491,
+          "f1": 0.31235804943219775,
+          "balanced_accuracy": 0.5939060149845448,
+          "pr_auc": 0.2835415716889739,
+          "roc_auc": 0.6942962611934358
+        },
+        "business_metrics": {
+          "tp": 1169.0,
+          "fp": 2539.0,
+          "tn": 18325.0,
+          "fn": 2608.0,
+          "reject_rate": 0.15048090580739418,
+          "approve_rate": 0.8495190941926059,
+          "default_capture_recall": 0.3095048980672491,
+          "bad_rate_in_reject_precision": 0.31526429341963325,
+          "bad_rate_in_approve": 0.12458797114603735
+        }
+      },
+      "test_metrics_raw": {
+        "accuracy": 0.7911204902398442,
+        "precision": 0.31526429341963325,
+        "recall": 0.3095048980672491,
+        "f1": 0.31235804943219775,
+        "balanced_accuracy": 0.5939060149845448,
+        "pr_auc": 0.2835415716889739,
+        "roc_auc": 0.6942962611934358
+      },
+      "test_business_metrics_raw": {
+        "tp": 1169.0,
+        "fp": 2539.0,
+        "tn": 18325.0,
+        "fn": 2608.0,
+        "reject_rate": 0.15048090580739418,
+        "approve_rate": 0.8495190941926059,
+        "default_capture_recall": 0.3095048980672491,
+        "bad_rate_in_reject_precision": 0.31526429341963325,
+        "bad_rate_in_approve": 0.12458797114603735
+      },
+      "test_fixed_metrics_raw": {
+        "threshold": 0.631813275631375,
+        "target_reject_rate": 0.15327673252057597,
+        "actual_reject_rate": 0.15048090580739418,
+        "precision_at_target_reject_rate": 0.31526429341963325,
+        "recall_at_target_reject_rate": 0.3095048980672491,
+        "approval_bad_rate": 0.12458797114603735,
+        "lift_at_target_reject_rate": 2.0568307285472174,
+        "classification_metrics": {
+          "accuracy": 0.7911204902398442,
+          "precision": 0.31526429341963325,
+          "recall": 0.3095048980672491,
+          "f1": 0.31235804943219775,
+          "balanced_accuracy": 0.5939060149845448,
+          "pr_auc": 0.2835415716889739,
+          "roc_auc": 0.6942962611934358
+        },
+        "business_metrics": {
+          "tp": 1169.0,
+          "fp": 2539.0,
+          "tn": 18325.0,
+          "fn": 2608.0,
+          "reject_rate": 0.15048090580739418,
+          "approve_rate": 0.8495190941926059,
+          "default_capture_recall": 0.3095048980672491,
+          "bad_rate_in_reject_precision": 0.31526429341963325,
+          "bad_rate_in_approve": 0.12458797114603735
+        }
+      },
+      "gains_lift_curve_rows": [
+        {
+          "target_reject_rate": 0.05,
+          "threshold_from_validation": 0.7261686921119687,
+          "validation_reject_rate": 0.05001775478110891,
+          "validation_precision": 0.38843813387423937,
+          "validation_recall": 0.12673726009265388,
+          "test_reject_rate": 0.04833407735075687,
+          "test_precision": 0.3904282115869018,
+          "test_recall": 0.12311358220810167,
+          "test_approval_bad_rate": 0.14123667377398721,
+          "test_lift": 7.8085642317380355
+        },
+        {
+          "target_reject_rate": 0.1,
+          "threshold_from_validation": 0.6733490347862243,
+          "validation_reject_rate": 0.10003550956221782,
+          "validation_precision": 0.36156186612576063,
+          "validation_recall": 0.23593646591661152,
+          "test_reject_rate": 0.09776388945253846,
+          "test_precision": 0.34537152345371525,
+          "test_recall": 0.2202806460153561,
+          "test_approval_bad_rate": 0.13246671464555596,
+          "test_lift": 3.4537152345371522
+        },
+        {
+          "target_reject_rate": 0.15,
+          "threshold_from_validation": 0.6343521356582642,
+          "validation_reject_rate": 0.15000253639730127,
+          "validation_precision": 0.3354751437267501,
+          "validation_recall": 0.32825943084050296,
+          "test_reject_rate": 0.14686903940586826,
+          "test_precision": 0.3174910196186792,
+          "test_recall": 0.30420969023034156,
+          "test_approval_bad_rate": 0.12501189230330131,
+          "test_lift": 2.1166067974578615
+        },
+        {
+          "target_reject_rate": 0.2,
+          "threshold_from_validation": 0.6020471930503846,
+          "validation_reject_rate": 0.2000202911784102,
+          "validation_precision": 0.3056048693887903,
+          "validation_recall": 0.3987425545996029,
+          "test_reject_rate": 0.19280873341179336,
+          "test_precision": 0.30288360345190485,
+          "test_recall": 0.3809902038655017,
+          "test_approval_bad_rate": 0.1175465057817999,
+          "test_lift": 1.514418017259524
+        },
+        {
+          "target_reject_rate": 0.25,
+          "threshold_from_validation": 0.5693304538726807,
+          "validation_reject_rate": 0.2500380459595191,
+          "validation_precision": 0.28545343883140595,
+          "validation_recall": 0.46558570483123757,
+          "test_reject_rate": 0.2438618562558338,
+          "test_precision": 0.28424030620735563,
+          "test_recall": 0.4522107492719089,
+          "test_approval_bad_rate": 0.11104551309574925,
+          "test_lift": 1.1369612248294225
+        },
+        {
+          "target_reject_rate": 0.3,
+          "threshold_from_validation": 0.5384562849998474,
+          "validation_reject_rate": 0.30000507279460253,
+          "validation_precision": 0.26750084545147107,
+          "validation_recall": 0.5234943745863666,
+          "test_reject_rate": 0.2967006209163589,
+          "test_precision": 0.26877308165777597,
+          "test_recall": 0.5202541699761716,
+          "test_approval_bad_rate": 0.10455856895556838,
+          "test_lift": 0.8959102721925866
+        },
+        {
+          "target_reject_rate": 0.35,
+          "threshold_from_validation": 0.5110632658004761,
+          "validation_reject_rate": 0.35002282757571146,
+          "validation_precision": 0.25478260869565217,
+          "validation_recall": 0.5817339510258107,
+          "test_reject_rate": 0.3479160748346252,
+          "test_precision": 0.25615303860958827,
+          "test_recall": 0.5814138204924544,
+          "test_approval_bad_rate": 0.09839432412247946,
+          "test_lift": 0.7318658245988237
+        },
+        {
+          "target_reject_rate": 0.4,
+          "threshold_from_validation": 0.4822725236415862,
+          "validation_reject_rate": 0.39998985441079493,
+          "validation_precision": 0.24223208623969564,
+          "validation_recall": 0.6320317670416943,
+          "test_reject_rate": 0.4044478714337892,
+          "test_precision": 0.2433273128637367,
+          "test_recall": 0.6420439502250463,
+          "test_approval_bad_rate": 0.09212947189097104,
+          "test_lift": 0.6083182821593417
+        },
+        {
+          "target_reject_rate": 0.45,
+          "threshold_from_validation": 0.4563712179660797,
+          "validation_reject_rate": 0.4500076091919038,
+          "validation_precision": 0.23435914778491715,
+          "validation_recall": 0.6879549966909332,
+          "test_reject_rate": 0.4534718558500061,
+          "test_precision": 0.23375693574369072,
+          "test_recall": 0.6915541435001323,
+          "test_approval_bad_rate": 0.0865077597089181,
+          "test_lift": 0.5194598572082015
+        },
+        {
+          "target_reject_rate": 0.5,
+          "threshold_from_validation": 0.4302273094654083,
+          "validation_reject_rate": 0.5000253639730128,
+          "validation_precision": 0.22390179567819823,
+          "validation_recall": 0.7303110522832561,
+          "test_reject_rate": 0.5047684753053854,
+          "test_precision": 0.22431259044862517,
+          "test_recall": 0.73868149324861,
+          "test_approval_bad_rate": 0.08088175038924855,
+          "test_lift": 0.44862518089725034
+        }
+      ],
+      "test_manual_policy_eval": {
+        "auto_count": 24641,
+        "manual_count": 0,
+        "auto_metrics": {
+          "accuracy": 0.7911204902398442,
+          "precision": 0.31526429341963325,
+          "recall": 0.3095048980672491,
+          "f1": 0.31235804943219775,
+          "balanced_accuracy": 0.5939060149845448,
+          "pr_auc": 0.2835415716889739,
+          "roc_auc": 0.6942962611934358
+        },
+        "auto_business": {
+          "tp": 1169.0,
+          "fp": 2539.0,
+          "tn": 18325.0,
+          "fn": 2608.0,
+          "reject_rate": 0.15048090580739418,
+          "approve_rate": 0.8495190941926059,
+          "default_capture_recall": 0.3095048980672491,
+          "bad_rate_in_reject_precision": 0.31526429341963325,
+          "bad_rate_in_approve": 0.12458797114603735
+        },
+        "portfolio_business": {
+          "precision_reject_auto": 0.31526429341963325,
+          "recall_default_auto_on_total": 0.3095048980672491,
+          "reject_rate_auto_on_total": 0.15048090580739418,
+          "auto_rate": 1.0,
+          "manual_rate": 0.0,
+          "bad_rate_in_auto_approve": 0.12458797114603735,
+          "auto_reject_count": 3708.0,
+          "auto_approve_count": 20933.0
+        }
+      },
+      "test_manual_policy_raw": {
+        "auto_count": 24641,
+        "manual_count": 0,
+        "auto_metrics": {
+          "accuracy": 0.7911204902398442,
+          "precision": 0.31526429341963325,
+          "recall": 0.3095048980672491,
+          "f1": 0.31235804943219775,
+          "balanced_accuracy": 0.5939060149845448,
+          "pr_auc": 0.2835415716889739,
+          "roc_auc": 0.6942962611934358
+        },
+        "auto_business": {
+          "tp": 1169.0,
+          "fp": 2539.0,
+          "tn": 18325.0,
+          "fn": 2608.0,
+          "reject_rate": 0.15048090580739418,
+          "approve_rate": 0.8495190941926059,
+          "default_capture_recall": 0.3095048980672491,
+          "bad_rate_in_reject_precision": 0.31526429341963325,
+          "bad_rate_in_approve": 0.12458797114603735
+        },
+        "portfolio_business": {
+          "precision_reject_auto": 0.31526429341963325,
+          "recall_default_auto_on_total": 0.3095048980672491,
+          "reject_rate_auto_on_total": 0.15048090580739418,
+          "auto_rate": 1.0,
+          "manual_rate": 0.0,
+          "bad_rate_in_auto_approve": 0.12458797114603735,
+          "auto_reject_count": 3708.0,
+          "auto_approve_count": 20933.0
+        }
+      }
+    }
+  ],
+  "best_model_name": "xgboost_tabular",
+  "artifacts": {
+    "data_dir": "output\\ml_standalone_full_actual_rr\\data",
+    "feature_selection_json": "output\\ml_standalone_full_actual_rr\\analysis\\feature_selection.json",
+    "eda_report_json": "output\\ml_standalone_full_actual_rr\\analysis\\eda_report.json",
+    "model_summary_csv": "output\\ml_standalone_full_actual_rr\\model\\model_summary.csv",
+    "predictions_csv": "output\\ml_standalone_full_actual_rr\\model\\model_predictions.csv",
+    "best_model_joblib": "output\\ml_standalone_full_actual_rr\\model\\best_model.joblib",
+    "gains_lift_curves": {
+      "logistic_tabular": "output\\ml_standalone_full_actual_rr\\model\\logistic_tabular_gains_lift_curve.csv",
+      "logistic_text_fusion": "output\\ml_standalone_full_actual_rr\\model\\logistic_text_fusion_gains_lift_curve.csv",
+      "xgboost_tabular": "output\\ml_standalone_full_actual_rr\\model\\xgboost_tabular_gains_lift_curve.csv"
+    }
+  }
+}

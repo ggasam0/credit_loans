@@ -1,0 +1,9 @@
+{
+  "train_csv": "output\\llm_two_stage_subset_full_06b\\data\\train_full.csv",
+  "reason_jsonl": "output\\llm_two_stage_subset_full_06b\\data\\sft\\credit_teacher_reason_full.jsonl",
+  "action_jsonl": "output\\llm_two_stage_subset_full_06b\\data\\sft\\credit_teacher_action_full.jsonl",
+  "audit_csv": "output\\llm_two_stage_subset_full_06b\\data\\sft\\credit_teacher_two_stage_full_audit.csv",
+  "total_rows": 5686,
+  "kept_rows": 5686,
+  "dropped_rows": 0
+}

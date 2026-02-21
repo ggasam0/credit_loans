@@ -1,0 +1,210 @@
+{
+  "input_csv": "data\\shared\\shared_subset.csv",
+  "rows_used": 7108,
+  "split_mode": "stratified",
+  "split_summary": {
+    "mode": "stratified_random_split",
+    "test_size": 0.2,
+    "val_size_within_train": 0.2,
+    "random_state": 42,
+    "max_attempts": 200,
+    "attempts_used": 1,
+    "selected_seed": 42,
+    "rate_tolerance": 0.01,
+    "rate_match_satisfied": true,
+    "best_max_gap_vs_full": 0.0002917576967164104,
+    "best_max_pair_gap": 0.0004745908507782781,
+    "full": {
+      "rows": 7108,
+      "positive_rate": 0.35002813731007315,
+      "class_counts": {
+        "0": 4620,
+        "1": 2488
+      }
+    },
+    "train_fit": {
+      "rows": 4548,
+      "positive_rate": 0.3500439753737907,
+      "class_counts": {
+        "0": 2956,
+        "1": 1592
+      }
+    },
+    "validation": {
+      "rows": 1138,
+      "positive_rate": 0.34973637961335674,
+      "class_counts": {
+        "0": 740,
+        "1": 398
+      }
+    },
+    "test": {
+      "rows": 1422,
+      "positive_rate": 0.350210970464135,
+      "class_counts": {
+        "0": 924,
+        "1": 498
+      }
+    },
+    "shared_split_dir": "data\\shared\\splits\\stratified",
+    "shared_row_id_col": "_shared_row_id"
+  },
+  "strategy": {
+    "type": "analysis_based_risk_profile_classifier",
+    "threshold_policy": "fixed_reject_rate",
+    "objective": "precision_at_reject_rate_bounds",
+    "precision_floor": 0.4,
+    "min_reject_rate": 0.05,
+    "max_reject_rate": 0.6,
+    "target_reject_rate": 0.35,
+    "min_recall": 0.03
+  },
+  "train_rows": 5686,
+  "train_fit_rows": 4548,
+  "validation_rows": 1138,
+  "test_rows": 1422,
+  "feature_selection_json": "output\\ml_standalone\\analysis\\feature_selection.json",
+  "selected_numeric_columns": [
+    "loan_amnt",
+    "int_rate",
+    "installment",
+    "annual_inc",
+    "dti",
+    "open_acc",
+    "pub_rec",
+    "revol_bal",
+    "revol_util",
+    "total_acc",
+    "emp_length_years",
+    "term_months",
+    "fico_mean"
+  ],
+  "selected_categorical_columns": [
+    "grade",
+    "home_ownership",
+    "verification_status",
+    "purpose",
+    "addr_state"
+  ],
+  "selected_feature_count": 18,
+  "threshold_tuning": {
+    "metric": "fixed_reject_rate_quantile",
+    "best_threshold": 0.3550027701254809,
+    "best_score": NaN,
+    "precision_floor": 0.4,
+    "recall_floor": 0.03,
+    "min_reject_rate": 0.05,
+    "max_reject_rate": 0.6,
+    "target_reject_rate": 0.35,
+    "constraint_satisfied": true,
+    "fallback_metric": null,
+    "validation_precision": 0.39195979899497485,
+    "validation_recall": 0.39195979899497485,
+    "validation_reject_rate": 0.34973637961335674,
+    "validation_metrics_at_best_threshold": {
+      "accuracy": 0.5746924428822495,
+      "precision": 0.39195979899497485,
+      "recall": 0.39195979899497485,
+      "f1": 0.39195979899497485,
+      "balanced_accuracy": 0.5324663859839739,
+      "pr_auc": 0.3816852187342518,
+      "roc_auc": 0.5546584272714926
+    },
+    "validation_business_metrics_at_best_threshold": {
+      "tp": 156.0,
+      "fp": 242.0,
+      "tn": 498.0,
+      "fn": 242.0,
+      "reject_rate": 0.34973637961335674,
+      "approve_rate": 0.6502636203866432,
+      "default_capture_recall": 0.39195979899497485,
+      "bad_rate_in_reject_precision": 0.39195979899497485,
+      "bad_rate_in_approve": 0.327027027027027
+    },
+    "validation_fixed_metrics_at_target_reject_rate": {
+      "threshold": 0.3550027701254809,
+      "target_reject_rate": 0.35,
+      "actual_reject_rate": 0.34973637961335674,
+      "precision_at_target_reject_rate": 0.39195979899497485,
+      "recall_at_target_reject_rate": 0.39195979899497485,
+      "approval_bad_rate": 0.327027027027027,
+      "lift_at_target_reject_rate": 1.1198851399856424,
+      "classification_metrics": {
+        "accuracy": 0.5746924428822495,
+        "precision": 0.39195979899497485,
+        "recall": 0.39195979899497485,
+        "f1": 0.39195979899497485,
+        "balanced_accuracy": 0.5324663859839739,
+        "pr_auc": 0.3816852187342518,
+        "roc_auc": 0.5546584272714926
+      },
+      "business_metrics": {
+        "tp": 156.0,
+        "fp": 242.0,
+        "tn": 498.0,
+        "fn": 242.0,
+        "reject_rate": 0.34973637961335674,
+        "approve_rate": 0.6502636203866432,
+        "default_capture_recall": 0.39195979899497485,
+        "bad_rate_in_reject_precision": 0.39195979899497485,
+        "bad_rate_in_approve": 0.327027027027027
+      }
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.590014064697609,
+    "precision": 0.4174757281553398,
+    "recall": 0.43172690763052207,
+    "f1": 0.4244817374136229,
+    "balanced_accuracy": 0.5535257914775987,
+    "pr_auc": 0.4125031921107374,
+    "roc_auc": 0.5780003129400719
+  },
+  "test_business_metrics": {
+    "tp": 215.0,
+    "fp": 300.0,
+    "tn": 624.0,
+    "fn": 283.0,
+    "reject_rate": 0.3621659634317862,
+    "approve_rate": 0.6378340365682138,
+    "default_capture_recall": 0.43172690763052207,
+    "bad_rate_in_reject_precision": 0.4174757281553398,
+    "bad_rate_in_approve": 0.31201764057331866
+  },
+  "test_fixed_metrics_at_target_reject_rate": {
+    "threshold": 0.3550027701254809,
+    "target_reject_rate": 0.35,
+    "actual_reject_rate": 0.3621659634317862,
+    "precision_at_target_reject_rate": 0.4174757281553398,
+    "recall_at_target_reject_rate": 0.43172690763052207,
+    "approval_bad_rate": 0.31201764057331866,
+    "lift_at_target_reject_rate": 1.1927877947295422,
+    "classification_metrics": {
+      "accuracy": 0.590014064697609,
+      "precision": 0.4174757281553398,
+      "recall": 0.43172690763052207,
+      "f1": 0.4244817374136229,
+      "balanced_accuracy": 0.5535257914775987,
+      "pr_auc": 0.4125031921107374,
+      "roc_auc": 0.5780003129400719
+    },
+    "business_metrics": {
+      "tp": 215.0,
+      "fp": 300.0,
+      "tn": 624.0,
+      "fn": 283.0,
+      "reject_rate": 0.3621659634317862,
+      "approve_rate": 0.6378340365682138,
+      "default_capture_recall": 0.43172690763052207,
+      "bad_rate_in_reject_precision": 0.4174757281553398,
+      "bad_rate_in_approve": 0.31201764057331866
+    }
+  },
+  "artifacts": {
+    "data_dir": "output\\data_analysis_standalone\\data",
+    "feature_profiles_json": "output\\data_analysis_standalone\\analysis\\feature_profiles.json",
+    "feature_profiles_csv": "output\\data_analysis_standalone\\analysis\\feature_profiles.csv",
+    "predictions_csv": "output\\data_analysis_standalone\\model\\analysis_predictions.csv",
+    "gains_lift_curve_csv": "output\\data_analysis_standalone\\model\\analysis_gains_lift_curve.csv"
+  }
+}

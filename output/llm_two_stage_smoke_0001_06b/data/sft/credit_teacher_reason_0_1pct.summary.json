@@ -1,0 +1,9 @@
+{
+  "train_csv": "output\\llm_two_stage_smoke_0001_06b\\data\\train_0_1pct.csv",
+  "reason_jsonl": "output\\llm_two_stage_smoke_0001_06b\\data\\sft\\credit_teacher_reason_0_1pct.jsonl",
+  "action_jsonl": "output\\llm_two_stage_smoke_0001_06b\\data\\sft\\credit_teacher_action_0_1pct.jsonl",
+  "audit_csv": "output\\llm_two_stage_smoke_0001_06b\\data\\sft\\credit_teacher_two_stage_0_1pct_audit.csv",
+  "total_rows": 6,
+  "kept_rows": 6,
+  "dropped_rows": 0
+}

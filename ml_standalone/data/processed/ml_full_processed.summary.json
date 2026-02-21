@@ -1,0 +1,37 @@
+{
+  "input_csv": "data\\accepted_2007_to_2018Q4.csv",
+  "raw_output_csv": "ml_standalone\\data\\raw\\ml_raw_full.csv",
+  "processed_output_csv": "ml_standalone\\data\\processed\\ml_full_processed.csv",
+  "rows_seen": 2260701,
+  "rows_kept_before_cleaning": 123293,
+  "rows_after_cleaning": 123202,
+  "cleaning_report": {
+    "rows_before": 123293,
+    "rows_after": 123202,
+    "rows_dropped_by_required_non_null": 91,
+    "required_non_null_cols_used": [
+      "target",
+      "desc_clean",
+      "issue_year",
+      "loan_amnt",
+      "int_rate",
+      "annual_inc",
+      "dti",
+      "fico_mean",
+      "revol_util"
+    ],
+    "dropped_columns_manual": [
+      "application_type",
+      "desc",
+      "emp_length",
+      "fico_range_high",
+      "fico_range_low",
+      "issue_d",
+      "loan_status",
+      "sub_grade",
+      "term"
+    ],
+    "dropped_columns_missing_ratio": [],
+    "dropped_columns_constant": []
+  }
+}
