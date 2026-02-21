@@ -1,21 +1,22 @@
 {
-  "prediction_file": "data\\gpt5.2_predictions_desc_first.json",
-  "labels_file": "output\\llm_two_stage_subset_full_06b\\data\\test_full.csv",
-  "rows": 919,
+  "prediction_file": "data/loan_decisions.csv",
+  "labels_file": "data/shared/splits/stratified/test.csv",
+  "rows": 1422,
+  "missing_predictions": 0,
   "confusion_matrix": {
-    "tp": 117,
-    "fp": 205,
-    "tn": 407,
-    "fn": 190
+    "tp": 405,
+    "fp": 765,
+    "tn": 159,
+    "fn": 93
   },
   "metrics": {
-    "accuracy": 0.5701849836779108,
-    "precision_reject": 0.36335403726708076,
-    "recall_default": 0.3811074918566775,
-    "f1": 0.37201907790143085,
-    "reject_rate": 0.35038084874863984,
-    "approval_bad_rate": 0.31825795644891125,
-    "default_rate": 0.3340587595212187,
-    "lift": 1.0876949845226294
+    "accuracy": 0.39662447257383965,
+    "precision_reject": 0.34615384615384615,
+    "recall_default": 0.8132530120481928,
+    "f1": 0.4856115107913669,
+    "reject_rate": 0.8227848101265823,
+    "approval_bad_rate": 0.36904761904761907,
+    "default_rate": 0.350210970464135,
+    "lift": 0.9884151992585727
   }
 }

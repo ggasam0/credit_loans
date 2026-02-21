@@ -1,43 +1,60 @@
-﻿# ML 单线说明（共享切分版本）
+# ML 单线说明（双口径）
 
-## 1. 输入与切分
+## 1. 评估口径
 
-- 输入数据：`data/shared/shared_subset.csv`
-- 切分方式：`stratified_random_split`
-- 共享切分目录：`data/shared/splits/stratified`
-- 共享切分复用参数：
-  - `--shared-split-dir data/shared/splits/stratified`
-  - `--no-force-rebuild-shared-split`（复用）
-  - `--force-rebuild-shared-split`（重建）
+本目录同时维护两套主口径：
 
-## 2. 评估口径
+1. 共享子数据集全量（`7108` 行）  
+- 输入：`data/shared/shared_subset.csv`  
+- 输出：`output/ml_standalone`
 
-- 阈值策略：`fixed_reject_rate`
-- 目标拒绝率：`Reject Rate=35%`
-- 指标：`Precision@35%`、`Recall@35%`、`Approval Bad Rate`、`Lift@35%`
-- 输出曲线：`Reject 5% -> 50%` 的 Gains/Lift 曲线
+2. 原始全量（实际违约率口径，`123202` 行）  
+- 输入：`ml_standalone/data/processed/ml_full_processed.csv`  
+- 输出：`output/ml_standalone_full_actual_rr`
 
-## 3. 重跑命令
+两套口径均使用：
+- 分层切分（`stratified_random_split`）
+- 阈值策略 `fixed_reject_rate`
+- 指标 `Precision@RR`、`Recall@RR`、`Approval Bad Rate`、`Lift@RR`
+- Gains/Lift 曲线（Reject 5% -> 50%）
 
+## 2. 重跑命令
+
+### A. 共享子数据集全量（7108）
 ```powershell
 .\.venv\Scripts\python.exe ml_standalone\run_ml_pipeline.py `
   --input data/shared/shared_subset.csv `
   --output-dir output/ml_standalone `
   --shared-split-dir data/shared/splits/stratified `
-  --force-rebuild-shared-split `
+  --no-force-rebuild-shared-split `
   --test-size 0.2 `
   --val-size 0.2 `
   --threshold-policy fixed_reject_rate `
   --target-reject-rate 0.35 `
-  --threshold-objective precision_at_reject_rate_bounds `
   --no-enable-manual-review `
   --no-balance-train `
   --no-balance-test
 ```
 
-## 4. 数据产物
+### B. 原始全量（123202）
+```powershell
+.\.venv\Scripts\python.exe ml_standalone\run_ml_pipeline.py `
+  --input ml_standalone/data/processed/ml_full_processed.csv `
+  --output-dir output/ml_standalone_full_actual_rr `
+  --shared-split-dir data/shared/splits/full_actual_rr `
+  --no-force-rebuild-shared-split `
+  --test-size 0.2 `
+  --val-size 0.2 `
+  --threshold-policy fixed_reject_rate `
+  --target-reject-rate 0.15327673252057597 `
+  --no-enable-manual-review `
+  --no-balance-train `
+  --no-balance-test
+```
 
-`output/ml_standalone/data` 下保留：
+## 3. 数据产物
+
+A 口径：`output/ml_standalone/data`
 - `ml_processed.csv`
 - `train_fit.csv`
 - `validation.csv`
@@ -46,11 +63,29 @@
 - `test_eval_for_metrics.csv`
 - `split_summary.json`
 
-## 5. 结果产物
+B 口径：`output/ml_standalone_full_actual_rr/data`
+- `ml_processed.csv` 或 `ml_full_processed.csv`（视流程输入）
+- `train_fit.csv`
+- `validation.csv`
+- `test.csv`
+- `train_fit_for_training.csv`
+- `test_eval_for_metrics.csv`
+- `split_summary.json`
 
+## 4. 结果产物
+
+A 口径：
 - `output/ml_standalone/run_report.json`
 - `output/ml_standalone/model/model_summary.csv`
 - `output/ml_standalone/model/model_predictions.csv`
 - `output/ml_standalone/model/logistic_tabular_gains_lift_curve.csv`
 - `output/ml_standalone/model/logistic_text_fusion_gains_lift_curve.csv`
 - `output/ml_standalone/model/xgboost_tabular_gains_lift_curve.csv`
+
+B 口径：
+- `output/ml_standalone_full_actual_rr/run_report.json`
+- `output/ml_standalone_full_actual_rr/model/model_summary.csv`
+- `output/ml_standalone_full_actual_rr/model/model_predictions.csv`
+- `output/ml_standalone_full_actual_rr/model/logistic_tabular_gains_lift_curve.csv`
+- `output/ml_standalone_full_actual_rr/model/logistic_text_fusion_gains_lift_curve.csv`
+- `output/ml_standalone_full_actual_rr/model/xgboost_tabular_gains_lift_curve.csv`

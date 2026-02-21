@@ -13,3 +13,6 @@ qwen3_06b**/
 *.bin
 *.safetensors
 *.pt
+~*
+tmp/
+*.xlsx
