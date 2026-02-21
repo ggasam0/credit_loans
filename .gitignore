@@ -16,3 +16,4 @@ qwen3_06b**/
 ~*
 tmp/
 *.xlsx
+*.pdf
